@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import MethodikDidaktik from './Components/methodik-didaktik/MethodikDidaktik';
 import Test from './Components/test/Test';
 import Navigation from './Components/navigation/Navigation'
+import Footer from './Components/footer/Footer';
 
 
 class App extends Component {
@@ -17,8 +18,8 @@ class App extends Component {
     return (
       <div className="App">
         <Navigation />
-        <MethodikDidaktik />
-        <Test />
+        
+        <Footer />
       </div>
     );
   }
