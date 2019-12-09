@@ -1,0 +1,58 @@
+#methodik-didaktik{
+    background: #f0f0f0;
+    padding: 10%;
+    color:#0f0f0f
+}
+#methodik-didaktik-carousel{
+    display: none;
+}
+.methodik-didaktik-title{
+    font-size: 3.3em;
+    font-weight: 500;
+    letter-spacing: 4px;
+    margin-bottom: 80px;
+}
+.methodik-didaktik-title span{
+    display: block;
+}
+.methodik-didaktik-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+    grid-gap:20px;
+}
+.methodik-didaktik-item{
+    text-align: center;
+}
+.methodik-didaktik-item .icon{
+    background: #ffffff;
+    width: 80px;
+    height: 80px;
+    padding: 20px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+
+} 
+.methodik-didaktik-item h4{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 0px;
+}
+.methodik-didaktik-item p{
+    font-size: 1.25em;
+    color: #1e1e1e;
+    line-height: 30px;
+}
+@media screen and (max-width: 992px) {
+    .methodik-didaktik-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media screen and (max-width: 576px) {
+    .methodik-didaktik-container{
+        display: none;
+    }
+    #methodik-didaktik-carousel{
+        display:block;
+    }
+}
