@@ -1,0 +1,30 @@
+#link-to-bootcamps{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:50px;
+    padding:10% ;
+}
+.bg-green{
+    background: #47d7ac;
+}
+.bg-gray{
+    background: #f0f0f0;
+}
+#link-to-bootcamps h3{
+    font-weight: 500;
+}
+#link-to-bootcamps span{
+  margin-left: 50px;
+}
+#link-to-bootcamps p{
+    width: 250px;
+    font-size: 1.1em;
+}
+#link-to-bootcamps .description-white{
+   font-style: italic;
+   color:#f0f0f0
+}
+#link-to-bootcamps .description-green{
+    font-style: italic;
+    color:#47d7ac
+ }

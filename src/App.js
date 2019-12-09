@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import MethodikDidaktik from './Components/methodik-didaktik/MethodikDidaktik';
-import Test from './Components/test/Test';
-
+import GetSheetDone from 'get-sheet-done';
+import Home from './Components/Home/Home';
 
 
 class App extends Component {
@@ -12,12 +12,15 @@ class App extends Component {
 
     }
   }
-
+  componentDidMount() {
+    GetSheetDone.raw('16eNHqHOT-YBv-NUJ07UIez9ZEzYus-ZIUp9up0aYPYE').then(sheet => {
+      console.log(sheet)
+    })
+  }
   render() {
     return (
       <div className="App">
-        <MethodikDidaktik />
-        <Test />
+        <Home />
       </div>
     );
   }
