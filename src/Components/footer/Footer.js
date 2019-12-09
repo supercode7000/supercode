@@ -3,7 +3,7 @@ import {
     BrowserRouter as Router,
     Switch,
     Route,
-    // Link
+    Link
 } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './footer.css';
@@ -13,17 +13,7 @@ import { faPhoneAlt, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 const Footer = () => {
     return (
-        <Router>
-            <Switch>
-                {/* component="" durch component={Zielcomponent} ersetzen */}
-
-                <Route path="/impressum" component="" />
-                <Route path="/datenschutz" component="" />
-
-                <Route path="/events" component="" />
-                <Route path="/anmeldung" component="" />
-                <Route component="" /> {/* für Error */}
-            </Switch>
+        <footer>
             <footer className="footerInfo">
                 <div>
                     <h5 className="footerInfoHeadline">SuperCode GmbH & Co. KG</h5>
@@ -61,14 +51,14 @@ const Footer = () => {
                     <img className="footerCopyrightImage" src="./img/supercode_logo_mobile.png" alt="Supercode Copyright" />
                     2019 supercode
             </div>
-                <div className="footerImpressum">
-                    Impressum
-            </div>
-                <div className="footerDSGVO">
-                    Datenschutz
-            </div>
+                <div>
+                    <Link  className="footerImpressum" to="impressum">Impressum</Link>
+                </div>
+                <div>
+                    <Link className="footerDSGVO" to="datenschutz">Datenschutz</Link>
+                </div>
             </footer>
-        </Router>
+        </footer>
     );
 }
 

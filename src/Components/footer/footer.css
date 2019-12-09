@@ -24,6 +24,19 @@
 .footerCopyright {
     grid-column: 2 / span 1;
 }
+.footerImpressumDSGVO {
+    padding-top: 5em;
+}
+
+.footerImpressum, .footerDSGVO {
+    color: #212529;
+}
+
+/* hover für die links */
+.footerImpressum:hover, .footerDSGVO:hover {
+    color: #00DEAC;
+}
+
 
 
 @media only screen and (max-width: 1000px) {

@@ -1,8 +1,13 @@
 import React, { Component } from 'react';
-import MethodikDidaktik from './Components/methodik-didaktik/MethodikDidaktik';
-import Test from './Components/test/Test';
-import Navigation from './Components/navigation/Navigation'
-import Footer from './Components/footer/Footer';
+import GetSheetDone from 'get-sheet-done';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  // Link
+} from "react-router-dom";
+import StartSeite from './Components/StartSeite/StartSeite'
+
 
 
 class App extends Component {
@@ -13,13 +18,29 @@ class App extends Component {
 
     }
   }
-
+  componentDidMount() {
+    GetSheetDone.raw('16eNHqHOT-YBv-NUJ07UIez9ZEzYus-ZIUp9up0aYPYE').then(sheet => {
+      console.log(sheet)
+    })
+  }
   render() {
     return (
       <div className="App">
-        <Navigation />
-        
-        <Footer />
+        <Router>
+          <Switch>
+            {/* component="" durch component={Zielcomponent} ersetzen */}
+            <Route path="/" component={StartSeite} exact />
+            <Route path="/kurse" component="" />
+            <Route path="/finanzierung" component="" />
+
+            <Route path="/events" component="" />
+            <Route path="/anmeldung" component="" />
+            <Route path="/impressum" component="" />
+            <Route path="/datenschutz" component="" />
+
+            <Route component="" /> {/* für Error */}
+          </Switch>
+        </Router>
       </div>
     );
   }
