@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
-import Navigation from './Components/navigation/Navigation'
 import GetSheetDone from 'get-sheet-done';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  // Link
+} from "react-router-dom";
+import StartSeite from './Components/StartSeite/StartSeite'
 
 
 
@@ -20,7 +26,18 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Navigation />
+        <Router>
+          <Switch>
+            {/* component="" durch component={Zielcomponent} ersetzen */}
+            <Route path="/" component={StartSeite} exact />
+            <Route path="/kurse" component="" />
+            <Route path="/finanzierung" component="" />
+
+            <Route path="/events" component="" />
+            <Route path="/anmeldung" component="" />
+            <Route component="" /> {/* für Error */}
+          </Switch>
+        </Router>
       </div>
     );
   }
