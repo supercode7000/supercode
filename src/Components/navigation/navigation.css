@@ -1,0 +1,47 @@
+/*
+#FFFFFF  = weiß
+#00000021  = grau
+#00DEAC  = grün
+#1A0E48  = dunkelblau */
+
+.imageNavigationNormal img, .imageNavigationMobile img {
+    height: 30px;
+    padding-left: 1em;
+}
+
+.nav-link {
+    color: #1A0E48 !important;
+    padding: 2.5em !important;
+    font-size: 1.2em;
+}
+.navigationAnmeldung {
+    background: #00DEAC;
+    
+}
+.navbar {
+    padding: 0;
+    background: #F0F0F0 !important;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .nav-link {
+        padding: .5em !important;
+        text-align: right;
+    }
+    .imageNavigationNormal {
+        padding: .5em 0;
+    }
+    .navbar-toggler {
+        padding: 1em;
+        background-color: #1A0E48;
+        outline: none !important;
+        border-radius: 0;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+  }

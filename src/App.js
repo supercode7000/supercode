@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import MethodikDidaktik from './Components/methodik-didaktik/MethodikDidaktik';
+
 import GetSheetDone from 'get-sheet-done';
-import Home from './Components/Home/Home';
+
 
 
 class App extends Component {
@@ -20,7 +21,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Home />
+
       </div>
     );
   }
