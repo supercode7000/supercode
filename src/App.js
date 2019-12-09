@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import MethodikDidaktik from './Components/methodik-didaktik/MethodikDidaktik';
-
+import Navigation from './Components/navigation/Navigation'
 import GetSheetDone from 'get-sheet-done';
 
 
@@ -21,7 +20,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-
+        <Navigation />
       </div>
     );
   }
