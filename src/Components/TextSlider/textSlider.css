@@ -1,0 +1,42 @@
+.textSliderSection {
+    padding: 10vmin;
+    background: #f0f0f0;
+    color: #0b0f2c;
+}
+.textSliderArticle {
+    background: #ffffff;
+    padding: 2rem;
+}
+.textSliderText {
+    font-size: 1.8em;
+    line-height: 2em;
+}
+.textSliderFooter {
+    padding-top: 3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.textSliderButton {
+    display: flex;
+}
+.textSliderSource p {
+    font-size: 1.2em;
+    margin-bottom: 0;
+}
+.textSliderSource p:first-of-type {
+    font-size: 1.4em;
+}
+.textSliderSource {
+    
+    font-weight: 200;
+    color: rgba(11, 15, 44, 0.6);
+}
+.textSliderButtonBack, .textSliderButtonForward {
+    font-size: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.textSliderButtonBack {
+    color: rgba(11, 15, 44, 0.6);   
+}
