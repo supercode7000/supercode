@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import './textSliderAlumni.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons'
+
+
 
 const data = [
     { text: "Sorry, checking all the water in this area; there's an escaped fish. I'm the Doctor, I'm worse than everyone's aunt. *catches himself* And that is not how I'm introducing myself. I'm the Doctor. Well, they call me the Doctor. I don't know why. I call me the Doctor too. I still don't know why.", autor: "Doctor Who 1", source: "Auszug aus Doctor Who", imgURL: "https://picsum.photos/id/391/200/200?1" },
@@ -7,7 +11,7 @@ const data = [
     { text: "My fellow Earthicans, as I have explained in my book 'Earth in the Balance'', and the much more popular ''Harry Potter and the Balance of Earth', we need to defend our planet against pollution. Also dark wizards. Tell her she looks thin.", autor: "Futurama", source: "Auszug aus Futurama", imgURL: "https://picsum.photos/id/361/800/400" }
 ]
 
-class textSliderAlumni extends Component {
+class TextSliderAlumni extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -33,25 +37,27 @@ class textSliderAlumni extends Component {
         return (
             <section className="textSliderAlumniSection">
 
-                <article className="textSliderAlumniArticle">
-
-                    <div className="textSliderAlumniText">
-                        {data[this.state.position].text}
-                    </div>
-                    <footer className="textSliderAlumniFooter">
-                        <figure className="textSliderAlumniSource">
-                            <img src={data[this.state.position].imgURL} alt={data[this.state.position].autor}/>
-                            <figcaption>
-                                <p>{data[this.state.position].autor}</p>
-                                <p>{data[this.state.position].source}</p>
-                            </figcaption>
-                        </figure>
-
-                        <div className="textSliderAlumniButton">
-                            <div className="textSliderAlumniButtonBack" onClick={this.handleBack}>&lang;</div>
-                            <div className="textSliderAlumniButtonForward" onClick={this.handleForward}>&rang;</div>
+                <article className="textSliderAlumniIcon">
+                    <FontAwesomeIcon className="textSliderAlumniQuote" icon={faQuoteLeft} />
+                    <div className="textSliderAlumniArticle">
+                        <div className="textSliderAlumniText">
+                            {data[this.state.position].text}
                         </div>
-                    </footer>
+                        <footer className="textSliderAlumniFooter">
+                            <figure className="textSliderAlumniSource">
+                                <img src={data[this.state.position].imgURL} alt={data[this.state.position].autor} />
+                                <figcaption>
+                                    <p>{data[this.state.position].autor}</p>
+                                    <p>{data[this.state.position].source}</p>
+                                </figcaption>
+                            </figure>
+
+                            <div className="textSliderAlumniButton">
+                                <div className="textSliderAlumniButtonBack" onClick={this.handleBack}>&lang;</div>
+                                <div className="textSliderAlumniButtonForward" onClick={this.handleForward}>&rang;</div>
+                            </div>
+                        </footer>
+                    </div>
                 </article>
 
             </section>
@@ -59,6 +65,6 @@ class textSliderAlumni extends Component {
     }
 }
 
-export default textSliderAlumni;
+export default TextSliderAlumni;
 
 

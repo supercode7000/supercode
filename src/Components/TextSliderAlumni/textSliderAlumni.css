@@ -3,10 +3,16 @@
     background: #f0f0f0;
     color: #0b0f2c;
 }
-.textSliderAlumniArticle {
+.textSliderAlumniArticle, .textSliderAlumniIcon {
     background: #ffffff;
+}
+.textSliderAlumniArticle {
+    padding: 0 2rem;
+}
+.textSliderAlumniIcon {
     padding: 2rem;
 }
+
 .textSliderAlumniText {
     font-size: 1.8em;
     line-height: 2em;
@@ -48,4 +54,7 @@
 }
 .textSliderAlumniButtonBack {
     color: rgba(11, 15, 44, 0.6);   
+}
+.textSliderAlumniQuote {
+
 }
