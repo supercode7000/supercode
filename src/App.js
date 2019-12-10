@@ -9,6 +9,7 @@ import {
 import StartSeite from './Components/StartSeite/StartSeite'
 
 
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -28,7 +29,7 @@ class App extends Component {
         <Router>
           <Switch>
             {/* component="" durch component={Zielcomponent} ersetzen */}
-            <Route path="/" component={StartSeite} exact />
+            {/* <Route path="/" component={StartSeite} exact /> */}
             <Route path="/kurse" component="" />
             <Route path="/finanzierung" component="" />
 
