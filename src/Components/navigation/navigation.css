@@ -1,9 +1,3 @@
-/*
-#FFFFFF  = weiß
-#00000021  = grau
-#00DEAC  = grün
-#1A0E48  = dunkelblau */
-
 .imageNavigationNormal img, .imageNavigationMobile img {
     height: 30px;
     padding-left: 1em;

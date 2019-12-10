@@ -1,0 +1,83 @@
+/*
+#FFFFFF  = weiß
+#00000021  = grau
+  = grün
+#1A0E48  = dunkelblau */
+
+.videoContainer {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 80vh;
+    
+}
+
+.videoContainer .textSeite {
+    color: #00DEAC;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 38vh;
+    left: -3vw;
+}
+.videoContainerTextContainer {
+    height: 80vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.videoContainerText {
+    position: relative;
+    width: 40%;
+    margin: 0 20% 0 40%;
+    font-size: 2.2rem;
+    z-index: 1;
+}
+
+.iframe-container {
+    overflow: hidden;
+    /* padding-top: 56.25%; */
+    padding-top: 30.25%;
+    position: relative;
+  }
+  
+.iframe-container iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+
+.iframe-container {
+    position: absolute;
+    width: 50%;
+    height: auto;
+    right: 0;
+    box-shadow: -20vw 10vh #00DEAC, 10vw 10vh #00DEAC; 
+}
+
+@media only screen and (max-width: 1000px) {
+    .iframe-container {
+        width: 80%;
+    }
+    .videoContainerText {
+        font-size: 1.2em;
+        height: auto;
+        margin: 2em;
+        width: 100%;
+    }
+    .videoContainerTextContainer {
+        height: auto;
+    }
+    .videoContainer {
+        display: block;
+    }
+    .videoContainer .textSeite {
+        display: none;
+    }
+    .iframe-container {
+        padding-top: 56.25%;
+    }
+}

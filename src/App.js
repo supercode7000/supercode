@@ -7,7 +7,7 @@ import {
   // Link
 } from "react-router-dom";
 import StartSeite from './Components/StartSeite/StartSeite'
-
+import VideoComponent from './Components/video/VideoComponent'
 
 
 class App extends Component {
@@ -40,6 +40,7 @@ class App extends Component {
 
             <Route component="" /> {/* für Error */}
           </Switch>
+          <VideoComponent />
         </Router>
       </div>
     );

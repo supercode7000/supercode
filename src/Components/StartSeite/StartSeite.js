@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Navigation from '../navigation/Navigation';
-import Footer from '../footer/Footer';
 
 class StartSeite extends Component {
     constructor(props) {
