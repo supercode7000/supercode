@@ -1,0 +1,35 @@
+#zukunft{
+    position: relative;
+}
+#zukunft div{
+    padding: 10% 10% 0;
+    background: #f0f0f0;
+    color: #0b0f2c;
+}
+.zukunft-title{
+    font-size: 3.6em;
+    font-weight: 500;
+    letter-spacing: 4px;
+    font-family: 'Fira Mono', monospace;
+    margin: 0;
+    transform: translateY(33px);
+}
+.zukunft-title span{
+    display: block;
+}
+#zukunft img{
+    display: block;
+    margin-left: auto;
+    transform: translateY(-150px);
+    width: 80%;
+}
+#zukunft>span{
+    position: absolute;
+    transform: rotate(-90deg);
+    left: 2%;
+    bottom: 25%;
+    font-size: 1.2em;
+    color: #47d7ac;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}

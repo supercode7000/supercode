@@ -7,6 +7,7 @@ const Home = () => {
     return (
         <div>
             <section id="home-start-seite">
+
                 <h1 className="home-start-seite">Wir sind super(code)</h1>
                 <h1 className="home-start-seite typing"><span>Wir sind </span>
                     <span>
