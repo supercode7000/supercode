@@ -7,7 +7,6 @@ import {
   // Link
 } from "react-router-dom";
 import StartSeite from './Components/StartSeite/StartSeite'
-import TextSlider from './Components/TextSlider/TextSlider';
 
 
 class App extends Component {
