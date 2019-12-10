@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
 import Navigation from '../navigation/Navigation';
+<<<<<<< HEAD
 import Home from '../Home/Home';
 import MethodikDidaktik from '../methodik-didaktik/MethodikDidaktik'
 import TwoColSection from '../TwoColSection/TwoColSection';
 import poster from "./poster.jpg"
 import Zukunft from '../Zukunft/Zukunft';
+=======
+import Footer from '../footer/Footer';
+>>>>>>> afc984452e023773042789491bde8b667fe522bb
 
 class StartSeite extends Component {
     constructor(props) {
