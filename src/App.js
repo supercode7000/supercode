@@ -7,6 +7,7 @@ import {
   // Link
 } from "react-router-dom";
 import StartSeite from './Components/StartSeite/StartSeite'
+import TextSliderAlumni from './Components/TextSliderAlumni/TextSliderAlumni';
 
 
 class App extends Component {
@@ -28,7 +29,7 @@ class App extends Component {
         <Router>
           <Switch>
             {/* component="" durch component={Zielcomponent} ersetzen */}
-            <Route path="/" component={StartSeite} exact />
+            {/* <Route path="/" component={StartSeite} exact /> */}
             <Route path="/kurse" component="" />
             <Route path="/finanzierung" component="" />
 
@@ -36,7 +37,7 @@ class App extends Component {
             <Route path="/anmeldung" component="" />
             <Route path="/impressum" component="" />
             <Route path="/datenschutz" component="" />
-            
+            <TextSliderAlumni />
             <Route component="" /> {/* für Error */}
           </Switch>
         </Router>

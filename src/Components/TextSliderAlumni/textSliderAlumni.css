@@ -1,0 +1,51 @@
+.textSliderAlumniSection {
+    padding: 10vmin;
+    background: #f0f0f0;
+    color: #0b0f2c;
+}
+.textSliderAlumniArticle {
+    background: #ffffff;
+    padding: 2rem;
+}
+.textSliderAlumniText {
+    font-size: 1.8em;
+    line-height: 2em;
+}
+.textSliderAlumniFooter {
+    padding-top: 3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.textSliderAlumniButton {
+    display: flex;
+}
+.textSliderAlumniSource p {
+    margin-bottom: 0;
+}
+.textSliderAlumniSource p:first-of-type {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.textSliderAlumniSource {    
+    display: flex;
+    font-weight: 200;
+    color: rgba(11, 15, 44, 0.6);
+    align-items: center;
+}
+.textSliderAlumniSource img {
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.textSliderAlumniButtonBack, .textSliderAlumniButtonForward {
+    font-size: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.textSliderAlumniButtonBack {
+    color: rgba(11, 15, 44, 0.6);   
+}
