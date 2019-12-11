@@ -1,0 +1,43 @@
+#card{
+    position: relative;
+}
+#carousel-card{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+#card .card-title-container{
+    padding: 10% 10% 0;
+    background: #f0f0f0;
+    color: #0b0f2c;
+}
+#card .card-title{
+    font-size: 3em;
+    font-weight: 500;
+    letter-spacing: 4px;
+    font-family: 'Fira Mono', monospace;
+    margin: 0;
+    transform: translateY(28px);
+}
+#card .card-title span{
+    display: block;
+}
+#card .card-description-container{
+    background: #f0f0f0;
+}
+#card .card-description-container article{
+    background: #47d7ac;
+    padding:8% 10% ;
+    width: 70%;
+}
+#card article p{
+    margin-top: 30px;
+    font-size: 1.1em;
+}
+#card article span{
+    display: block;
+}
+.bg{
+    height: 600px;
+    background: #f0f0f0;
+}

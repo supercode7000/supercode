@@ -1,0 +1,14 @@
+#carousel-card{
+    
+}
+#carousel-card-container{
+    width: 1000px;
+    margin-left: auto;
+}
+
+.react-multi-carousel-item{
+    width: 450px !important;
+} 
+.react-multi-carousel-list.container{
+    max-width: 1200px;
+} 

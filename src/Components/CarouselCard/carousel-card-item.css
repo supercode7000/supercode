@@ -1,0 +1,51 @@
+#carousel-card-item{
+    text-align: center;
+    padding:30px 20px ;
+    display: inline-block;
+    color: #0b0f2c;
+    width: 360px;
+    background: #ffffff;
+}
+#carousel-card-item h4{
+   color:#47d7ac;
+   font-weight: 300;
+   font-size: 1.15em;
+}
+#carousel-card-item h2{
+    font-weight: 500;
+    font-size: 1.6em;
+    opacity: 0.9;
+    margin-bottom: 30px;
+}
+#carousel-card-item h2 span{
+    display: block;
+}
+#carousel-card-item p {
+    opacity: 0.8;
+}
+#carousel-card-item p span{
+    margin-left: 30px;
+}
+#carousel-card-item h3{
+    color:#47d7ac;
+    font-weight: 400;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+#carousel-card-item .carousel-card-item-text{
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+#carousel-card-item .carousel-card-item-text.last{
+    margin-bottom: 100px;
+}
+#carousel-card-item a{
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-bottom: 8px;
+    letter-spacing: 3px;
+    color: #0b0f2c;
+    text-transform: uppercase;
+    border-bottom: 3px solid #47d7ac;
+}
