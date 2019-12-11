@@ -4,7 +4,7 @@
 #carousel-card{
     position: absolute;
     top: 30%;
-    left: 30%;
+    right: 0;
 }
 #card .card-title-container{
     padding: 10% 10% 0;

@@ -1,0 +1,28 @@
+.termine {
+    background: #f0f0f0;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    padding: 10% 0;
+}
+
+.termine h1 {
+    letter-spacing: 5px;
+    font-size: 4em;
+    font-weight: 400;
+    padding-bottom: 5%;
+    
+}
+
+.TextExpandContainer {
+    margin-top: 11%;
+    box-shadow: 30vw -10vh 0 #00DEAC; 
+}
+
+.termine-aside {
+    width: 80%;
+    margin: 0 auto;
+}
+.termine-aside p {
+    padding: 5% 1%;
+    font-size: 1.5em;
+}

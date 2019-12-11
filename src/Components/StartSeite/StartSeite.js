@@ -5,13 +5,8 @@ import MethodikDidaktik from '../methodik-didaktik/MethodikDidaktik'
 import TwoColSection from '../TwoColSection/TwoColSection';
 import poster from "./poster.jpg"
 import Zukunft from '../Zukunft/Zukunft';
-<<<<<<< HEAD
 import Footer from '../footer/Footer';
 import Card from '../Card/Card';
-=======
-
-
->>>>>>> 3d130e1c1089e1185dcd080dba73514ae9b0a474
 
 class StartSeite extends Component {
     constructor(props) {

@@ -1,0 +1,44 @@
+.noMoney-container {
+    background: #f0f0f0;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: auto auto;
+    padding: 5% 0 20%;
+}
+
+
+
+.noMoney-aside {
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 6666;
+    grid-row: span 2;
+}
+
+.noMoney-aside h1, .noMoney-aside h2 {
+    letter-spacing: 3px;
+    font-size: 4em;
+    font-weight: 400;
+}
+
+.noMoney-aside a {
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-bottom: 8px;
+    letter-spacing: 3px;
+    color: #0b0f2c;
+    text-transform: uppercase;
+    border-bottom: 3px solid #0b0f2c;
+}
+
+.noMoney-aside p {
+    font-size: 2.2em;
+    letter-spacing: 5px;
+    padding: 40% 0 5%;
+}
+
+.noMoney-textExpand {
+    margin-top: 61%;
+    box-shadow: -38vw -35vh 0 #00DEAC, 0 -35vh 0 #00DEAC, -38vw 0 0 #00DEAC, 0 35vh 0 #00DEAC, -38vw 35vh 0 #00DEAC ; 
+}

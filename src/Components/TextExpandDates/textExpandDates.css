@@ -1,0 +1,36 @@
+.TextExpandDates {
+    
+    padding: 2% 0 2% 4%;
+    background: #ffffff;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.TextExpandDates-container {
+    display: grid;
+    grid-template-columns: 1.5fr 3fr 50px;
+    background: #ffffff;
+    
+}
+.TextExpandDates-type {
+    font-style: italic;
+    color: #00DEAC;
+    font-size: 1.2em;
+}
+
+.TextExpandDates-date {
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+.TextExpandDates-type-title {
+    font-size: 1.8em;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.TextExpandDates span {
+    font-size: 2em;
+}
+.TextExpandDates-expand {
+    font-size: 1.5em;
+}

@@ -7,6 +7,7 @@ import {
   // Link
 } from "react-router-dom";
 import StartSeite from './Components/StartSeite/StartSeite'
+import KursSeite from './Components/KursSeite/KursSeite';
 
 
 
@@ -29,8 +30,8 @@ class App extends Component {
         <Router>
           <Switch>
             {/* component="" durch component={Zielcomponent} ersetzen */}
-            {/* <Route path="/" component={StartSeite} exact /> */}
-            <Route path="/kurse" component="" />
+            <Route path="/" component={StartSeite} exact />
+            <Route path="/kurse" component={KursSeite} />
             <Route path="/finanzierung" component="" />
 
             <Route path="/events" component="" />
