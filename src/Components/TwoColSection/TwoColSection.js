@@ -6,7 +6,7 @@ const TwoColSection = (props) => {
         <section className="two-col-section">
             <span>{props.aside}</span>
             <article>
-                <img src={props.img} alt="" />
+                <img className={props.isWhite ? 'white' : 'green'} src={props.img} alt="" />
             </article>
             <article className="two-col-section-text">
                 <h2>{props.title}</h2>

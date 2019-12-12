@@ -1,60 +1,39 @@
-.partner-section {
-    position: relative;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 1fr .2fr;
+#partner{
     background: #f0f0f0;
-    padding: 10vh 0;
-    overflow: visible;
 }
-.partner-text {
-    grid-row: span 1;
+.partner-container{
+    width: 80%;
     background: #47d7ac;
-    box-shadow: 38vw 0px #47d7ac;
-    padding: 20% 5% 20% 20%;
+    display: grid;
+    grid-template-columns: 55% 400px;
+    margin-bottom: 100px;
 }
-.partner-section .carousel  {
-    width: 50%;
-    background: #fff;
-    margin-top: 50px;
-    grid-row: span 2;
+.partner-container-text{
+    padding:10% 0 10% 20%;
 }
-.partner-section .carousel-indicators li {
-    height: 10px;
-    width: 10px;
-    border-radius: 50%;
-    border-top: 0;
-    border-bottom: 0;
-    background: #0f0f0f;
+.partner-container-text p{
+    font-size: 2.3em;
+    word-spacing: 4px;
+    color: #0b0f2c;
+    line-height: 50px;
 }
-.partner-section .carousel-indicators .active {
-    opacity: 1;
-    background: #0f0f0f;
+.partner-container-text small{
+    font-size: 1.1em;
+    color: #0b0f2c;
 }
-.partner-text-big {
-    font-size: 2.3rem;
-    letter-spacing: 3px;
-    
+.partner-container-text small a{
+    font-size: 1.1em;
+    color: #0b0f2c;
+    text-decoration: underline;
 }
-.partner-text-small {
-    padding-top: 30px;
-    font-size: 1.2em;
+.partner-container-Carousel{
+    transform: translateY(60px);
 }
-.partner-text-small a {
-    color: #0f0f0f;
-    border-bottom: 1px solid #0f0f0f;
+#partner .carousel-indicators{
+    margin-top: 50px !important;
 }
-.partner-text-small a:hover {
-    text-decoration: none;
-    color: #f0f0f0;
-}
-.partner-section aside {
-    position: absolute;
-    transform: rotate(-90deg);
-    right: 2%;
-    top: 25%;
-    font-size: 1.2em;
-    color: #47d7ac;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
+#partner .carousel-indicators li { 
+    height: 0px !important;
+    width: 20px !important;
+    border-radius: 50% !important;
+    background: #0b0f2c !important;}

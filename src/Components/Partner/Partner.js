@@ -1,47 +1,31 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './partner.css'
+import CarouselPartner from './CarouselPartner';
 import Carousel from 'react-bootstrap/Carousel'
-
-class Partner extends Component {
-    state = {}
-    render() {
-        return (
-            <section className="partner-section">
-                <aside>unser netzwerk</aside>
-                <div className="partner-text">
-                    <div className="partner-text-big">
-                        Unsere Partner sind von Anfang an in den Ablauf der Kurse integriert - so ist die Preaxisnähe garantiert.
-                    </div>
-                    <div className="partner-text-small">
-                        Du möchtest uns unterstützen und <a href="#">Partner</a> werden?
-                    </div>
+import 'bootstrap/dist/css/bootstrap.min.css';
+const Partner = () => {
+    return (
+        <section id="partner">
+            <div className="partner-container">
+                <div className="partner-container-text">
+                    <p>Unsere Partner sind von Anfangn an in den Ablaufer Kurse integriert - so ist die Praxisnähe garantiert</p>
+                    <small>Du möchtest uns unterstützen und <a href="#">Partner</a> werden?</small>
                 </div>
-                <Carousel controls={false} >
+                <div className="partner-container-Carousel">
+                    <Carousel indicators={true} controls={false}>
                         <Carousel.Item>
-                            <img
-                                className="d-block w-100"
-                                src="./img/partner/salzbrot.png"
-                                alt="Salz und Brot"
-                            />
+                            <CarouselPartner />
                         </Carousel.Item>
                         <Carousel.Item>
-                            <img
-                                className="d-block w-100"
-                                src="./img/partner/salzbrot.png"
-                                alt="Third slide"
-                            />
+                            <CarouselPartner />
                         </Carousel.Item>
                         <Carousel.Item>
-                            <img
-                                className="d-block w-100"
-                                src="./img/partner/salzbrot.png"
-                                alt="Third slide"
-                            />
+                            <CarouselPartner />
                         </Carousel.Item>
                     </Carousel>
-            </section>
-        );
-    }
+                </div>
+            </div>
+        </section >);
 }
 
 export default Partner;
