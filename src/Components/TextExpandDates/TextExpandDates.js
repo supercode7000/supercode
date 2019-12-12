@@ -16,14 +16,14 @@ class TextExpand extends Component {
     }
     render() {
         return (
-            <div className="TextExpandDates">
+            <div onClick={this.onToggle} className="TextExpandDates">
                 <div className="TextExpandDates-container">
                     <div className="TextExpandDates-date"><FontAwesomeIcon icon={faCalendar} /> {this.props.date}</div>
                     <div>
                         <div className="TextExpandDates-type">{this.props.type}</div>
                         <div className="TextExpandDates-type-title">{this.props.title}</div>
                     </div>
-                    <div><span onClick={this.onToggle}>{this.state.expand ? '-' : '+'}</span> </div>
+                    <div><span>{this.state.expand ? '-' : '+'}</span> </div>
                 </div>
                 <div className="TextExpandDates-expand" style={{display: this.state.expand ? 'block' : 'none' }}>{this.props.expandText}</div>
             </div>

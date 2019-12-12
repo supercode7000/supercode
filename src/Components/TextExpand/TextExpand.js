@@ -15,14 +15,14 @@ class TextExpand extends Component {
     }
     render() {
         return (
-            <div className="TextExpand">
+            <div  onClick={this.onToggle} className="TextExpand">
                 <div className="TextExpand-container">
                     
                     <div>
                         <div className="TextExpand-type">{this.props.type}</div>
                         <div className="TextExpand-type-title">{this.props.title}</div>
                     </div>
-                    <div><span onClick={this.onToggle}>{this.state.expand ? '-' : '+'}</span> </div>
+                    <div><span>{this.state.expand ? '-' : '+'}</span> </div>
                 </div>
                 <div className="TextExpand-expand" style={{display: this.state.expand ? 'block' : 'none' }}>{this.props.expandText}</div>
             </div>
