@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './partner.css'
+import './partner2.css'
 import Carousel from 'react-bootstrap/Carousel'
 
-class Partner extends Component {
+class Partner2 extends Component {
     state = {}
     render() {
         return (
@@ -43,3 +43,5 @@ class Partner extends Component {
         );
     }
 }
+
+export default Partner2;

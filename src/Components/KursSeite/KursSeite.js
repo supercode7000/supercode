@@ -7,7 +7,10 @@ import Termine from '../Termine/Termine';
 import NoMoney from '../NoMoney/NoMoney';
 import Trainer from '../Trainer/Trainer';
 import TextSliderAlumni from '../TextSliderAlumni/TextSliderAlumni';
-import Partner from '../Partner/Partner';
+import Partner2 from '../Partner2/Partner2';
+import Footer from '../footer/Footer';
+import NewsletterFooter from '../NewsletterFooter/NewsletterFooter';
+
 
 
 
@@ -28,7 +31,9 @@ class KursSeite extends Component {
                 <Trainer />
                 <TwoColSectionSlider aside={'LOCATION'} img="" title={'Vivamus elementum semper nisi.'} description={"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum quisquam perferendis aliquam quia? Ut, repudiandae quasi deleniti nesciunt vitae corrupti."} />
                 <TextSliderAlumni />
-                <Partner />
+                <Partner2 />
+                <NewsletterFooter />
+                <Footer />
             </div>
          );
     }
