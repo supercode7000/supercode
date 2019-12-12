@@ -9,6 +9,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 80vh;
+    background: #f0f0f0;
     
 }
 

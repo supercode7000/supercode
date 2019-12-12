@@ -1,0 +1,15 @@
+#carousel-partner{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 20px;
+    background: #fff;
+    gap:20px;
+    width: 100%;
+    justify-content: center;
+}
+#carousel-partner img{
+    width: 100%;
+}
+.space{
+    height: 80px;
+}

@@ -1,0 +1,19 @@
+#one-col-section{
+    background: #f0f0f0;
+    padding:11%;
+}
+.one-col-section-container{
+    background: #0b0f2c;
+    color: #47d7ac;
+    
+}
+.one-col-section-container p{
+    font-size:2.2em;
+    margin: 0;
+    text-align: center;
+    padding: 100px 0;
+    font-weight: 400;
+}
+.one-col-section-container span{
+    display: block;
+}
