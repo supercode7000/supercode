@@ -1,0 +1,55 @@
+.BootcampsWorkshops {
+    padding: 10vh 0;
+    position: relative;
+    background: #f0f0f0;
+    color:#0f0f0f
+}
+
+.BootcampsWorkshops h1 {
+    font-size: 6em;
+    padding-left: 10%;
+    width: 50%;
+    font-weight: 400;
+}
+
+.BootcampsWorkshops span {
+    position: absolute;
+    transform: rotate(-90deg);
+    right: -2vw;
+    top: 18%;
+    font-size: 1.2em;
+    color: #0b0f2c;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.BootcampsWorkshops figure {
+    padding-top: 5%;
+    display: flex;
+    width: 100%;
+}
+
+.BootcampsWorkshops img {
+    width: 50%;
+    box-shadow: 30px 30px #00DEAC; 
+    object-fit: cover;
+} 
+
+.BootcampsWorkshops figcaption {
+    padding-top: 5%;
+    width: 30%;
+    margin: 0 auto;
+    
+}
+
+.BootcampsWorkshops h2 {
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 2.2em;
+    line-height: 1.5em;
+}
+
+.BootcampsWorkshops p {
+    font-size: 1.3em;
+    line-height: 1.7em;
+}

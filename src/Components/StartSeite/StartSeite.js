@@ -7,10 +7,13 @@ import poster from "./poster.jpg"
 import Zukunft from '../Zukunft/Zukunft';
 import Footer from '../footer/Footer';
 import Card from '../Card/Card';
+<<<<<<< HEAD
 import VideoComponent from '../video/VideoComponent';
 import OneColSection from '../OneColSection/OneColSection';
 import TextSliderAlumni from '../TextSliderAlumni/TextSliderAlumni';
 import Partner from '../Partner/Partner';
+=======
+>>>>>>> 2f560595f1cc6746d08c15f25f95e8947c159ce1
 
 class StartSeite extends Component {
     constructor(props) {
