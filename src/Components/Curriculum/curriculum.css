@@ -42,13 +42,13 @@
 .Curriculum-NewsletterInput [type="email"] {
     /* padding: 0 20px; */
     width: 350px;
-    background: #47d7ac !important;
+    background: #47d7ac ;
     border: none;
     padding-bottom: 8px;
     border-bottom: 3px solid #fff;
     font-size: 1.3em;
     outline: none;
-    color: #f0f0f0 !important;
+    color: #f0f0f0;
 }
 
 

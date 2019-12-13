@@ -13,7 +13,7 @@ import { faPhoneAlt, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 const Footer = () => {
     return (
-        <footer>
+        <footer className="footer">
             <footer className="footerInfo">
                 <div>
                     <h5 className="footerInfoHeadline">SuperCode GmbH & Co. KG</h5>
@@ -52,7 +52,7 @@ const Footer = () => {
                     2019 supercode
             </div>
                 <div>
-                    <Link  className="footerImpressum" to="impressum">Impressum</Link>
+                    <Link className="footerImpressum" to="impressum">Impressum</Link>
                 </div>
                 <div>
                     <Link className="footerDSGVO" to="datenschutz">Datenschutz</Link>
