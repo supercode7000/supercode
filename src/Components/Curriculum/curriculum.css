@@ -1,0 +1,64 @@
+.Curriculum {
+    position: relative;
+    background: #f0f0f0;
+} 
+
+.Curriculum-hide {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Curriculum-Newsletter {
+    background: #47d7ac;
+    padding: 5%;
+    width: 60%;
+}
+
+
+.Curriculum-Newsletter h1 {
+    letter-spacing: 4px;
+    font-weight: 400;
+    font-size: 2.2rem;
+    color: #ffffff;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+
+}
+.Curriculum-NewsletterInput {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    
+}
+
+.Curriculum-NewsletterInput [type="email"] {
+    /* padding: 0 20px; */
+    width: 350px;
+    background: #47d7ac !important;
+    border: none;
+    padding-bottom: 8px;
+    border-bottom: 3px solid #fff;
+    font-size: 1.3em;
+    outline: none;
+    color: #f0f0f0 !important;
+}
+
+
+
+.Curriculum-NewsletterInput [type="submit"] {
+    background-color: #47d7ac;
+    border: none;
+    font-size: 1.3em;
+    color: #fff;
+    padding-bottom: 8px;
+    border-bottom: 3px solid #fff;
+    outline: none;
+}

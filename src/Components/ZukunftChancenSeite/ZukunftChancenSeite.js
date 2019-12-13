@@ -8,6 +8,7 @@ import MethodikDidaktik from '../methodik-didaktik/MethodikDidaktik';
 import TwoColSection from '../TwoColSection/TwoColSection';
 import poster from "../StartSeite/poster.jpg"
 import Workshop from '../Workshops/Workshops';
+import Curriculum from '../Curriculum/Curriculum';
 
 
 const ZukunftChanchenSeite = () => {
@@ -17,7 +18,7 @@ const ZukunftChanchenSeite = () => {
             <ZukunftChancen />
             <Tagesablauf />
             <OnePicture />
-            {/* Curriculum */}
+            <Curriculum />
             <NoMoney />
             <MethodikDidaktik />
             <Workshop />

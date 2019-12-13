@@ -1,0 +1,30 @@
+.CurriculumCard {
+    width: 75%;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.CurriculumCard-Item {
+    display: grid;
+    grid-template-columns: calc( 100% - 50px ) 50px;
+    border-top: 2px solid #f0f0f0;
+    padding: 2%;
+}
+
+.CurriculumCard-title-description {
+    font-style: italic;
+    font-size: 1.2em;
+    color: #00DEAC;
+}
+
+.CurriculumCard-title-title {
+    font-size: 1.8em;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.CurriculumCard-expand {
+    font-size: 1.2em;
+    padding: 2%;
+}
+
