@@ -11,7 +11,10 @@ import VideoComponent from '../video/VideoComponent';
 import OneColSection from '../OneColSection/OneColSection';
 import TextSliderAlumni from '../TextSliderAlumni/TextSliderAlumni';
 import Partner from '../Partner/Partner';
+<<<<<<< HEAD
 import Blog from '../BlogItem/Blog';
+=======
+>>>>>>> a2b0a2b2a704450662564ab31355685ac162beed
 
 class StartSeite extends Component {
     constructor(props) {
