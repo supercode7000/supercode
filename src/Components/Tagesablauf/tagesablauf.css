@@ -1,0 +1,50 @@
+/* Buttons start */
+.Tagesablauf button {
+    padding: 10px 20px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    display: block;
+    margin-top: 20px;
+}
+.Tagesablauf .active {
+    background: #ffffff;
+    color: #0b0f2c;
+}
+
+.Tagesablauf .deactive {
+    color: #0b0f2c;
+    background: #00DEAC;
+    border: 1px solid #0b0f2c;
+}
+/* Buttons end */
+
+.Tagesablauf {
+    background: #f0f0f0;
+}
+
+.Tagesablauf-Container {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.Tagesablauf h1 {
+    padding-left: 10vw;
+    letter-spacing: 5px;
+    font-size: 4em;
+    font-weight: 400;
+    padding-bottom: 5%;
+    position: relative;
+    z-index: 56;
+    box-shadow: inset 0px 50px #f0f0f0;
+}
+.Tagesablauf-Select {
+    padding: 0 60px 0 10vw;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    box-shadow: inset 0 53vh #00DEAC, 0vh -30vh #00DEAC, 80vh -30vh #00DEAC, 50vh -30vh #00DEAC;
+}
+
+.Tagesablauf-Tagesablauf {
+    background: #ffffff;
+}

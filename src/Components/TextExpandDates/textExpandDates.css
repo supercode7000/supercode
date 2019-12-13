@@ -29,6 +29,7 @@
 
 .TextExpandDates span {
     font-size: 2em;
+    cursor: pointer;
 }
 .TextExpandDates-expand {
     padding: 20px 0;

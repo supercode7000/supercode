@@ -17,7 +17,6 @@ class TextExpand extends Component {
         return (
             <div  onClick={this.onToggle} className="TextExpand">
                 <div className="TextExpand-container">
-                    
                     <div>
                         <div className="TextExpand-type">{this.props.type}</div>
                         <div className="TextExpand-type-title">{this.props.title}</div>

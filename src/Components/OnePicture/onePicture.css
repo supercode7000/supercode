@@ -1,0 +1,10 @@
+.OnePicture {
+    padding: 15% 0;
+    background: #f0f0f0;
+}
+.OnePicture img {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 30px 30px #00DEAC;
+}

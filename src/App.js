@@ -8,7 +8,7 @@ import {
 } from "react-router-dom";
 import StartSeite from './Components/StartSeite/StartSeite'
 import KursSeite from './Components/KursSeite/KursSeite';
-
+import ZukunftChancenSeite from './Components/ZukunftChancenSeite/ZukunftChancenSeite'
 
 
 class App extends Component {
@@ -32,7 +32,7 @@ class App extends Component {
             {/* component="" durch component={Zielcomponent} ersetzen */}
             <Route path="/" component={StartSeite} exact />
             <Route path="/kurse" component={KursSeite} />
-            <Route path="/finanzierung" component="" />
+            <Route path="/finanzierung" component={ZukunftChancenSeite} />
 
             <Route path="/events" component="" />
             <Route path="/anmeldung" component="" />

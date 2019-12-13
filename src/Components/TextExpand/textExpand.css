@@ -29,6 +29,7 @@
 
 .TextExpand span {
     font-size: 2em;
+    cursor: pointer;
 }
 .TextExpand-expand {
     padding: 20px 0;
