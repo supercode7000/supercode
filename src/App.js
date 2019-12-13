@@ -31,11 +31,7 @@ class App extends Component {
           <Switch>
             {/* component="" durch component={Zielcomponent} ersetzen */}
             <Route path="/" component={StartSeite} exact />
-<<<<<<< HEAD
-            <Route path="/kurse" component="" />
-=======
             <Route path="/kurse" component={KursSeite} />
->>>>>>> 2f560595f1cc6746d08c15f25f95e8947c159ce1
             <Route path="/finanzierung" component="" />
 
             <Route path="/events" component="" />

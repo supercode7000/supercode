@@ -25,6 +25,7 @@ const Partner = () => {
                     </Carousel>
                 </div>
             </div>
+            <div className="bg"></div>
         </section >);
 }
 

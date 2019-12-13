@@ -6,9 +6,9 @@
     margin-left: auto;
 }
 
-.react-multi-carousel-item{
+#carousel-card .react-multi-carousel-item{
     width: 450px !important;
 } 
-.react-multi-carousel-list.container{
+#carousel-card .react-multi-carousel-list.container{
     max-width: 1200px;
 } 

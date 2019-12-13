@@ -2,11 +2,12 @@
     background: #f0f0f0;
 }
 .partner-container{
-    width: 80%;
+    width: 90%;
     background: #47d7ac;
     display: grid;
     grid-template-columns: 55% 400px;
     margin-bottom: 100px;
+    gap:50px
 }
 .partner-container-text{
     padding:10% 0 10% 20%;
@@ -37,3 +38,6 @@
     width: 20px !important;
     border-radius: 50% !important;
     background: #0b0f2c !important;}
+#partner .bg{
+    height: 100px;
+}
