@@ -1,0 +1,30 @@
+.TagesablaufCard {
+    display: grid;
+    grid-template-columns: 30% calc( 70% - 100px ) 100px;
+    border-bottom: 2px solid #f0f0f0;
+    padding: 2%;
+}
+
+.Tagesablauf-Time {
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+.Tagesablauf-Info-type {
+    font-style: italic;
+    color: #00DEAC;
+    font-size: 1.2em;
+}
+
+.Tagesablauf-Info-title {
+    font-size: 1.8em;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.Tagesablauf-Dauer {
+    font-size: 1.2em;
+}
+.Tagesablauf-Dauer svg {
+    margin-right: 10px;
+}

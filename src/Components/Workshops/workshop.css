@@ -1,0 +1,50 @@
+.Workshop {
+    position: relative;
+    background: #f0f0f0;
+    padding: 5% 0;
+}
+
+.Workshop span {
+    position: absolute;
+    transform: rotate(-90deg);
+    right: -2%;
+    top: 17%;
+    font-size: 1.2em;
+    color: #47d7ac;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.Workshop a {
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-bottom: 8px;
+    letter-spacing: 3px;
+    color: #0b0f2c;
+    text-transform: uppercase;
+    border-bottom: 3px solid #00DEAC;
+}
+
+.Workshop figure {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.Workshop img {
+    width: 100%;
+    box-shadow: 30px 30px 0 #fff;
+}
+
+.Workshop figcaption {
+    padding: 5% 20%;
+}
+
+.Workshop h1 {
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.Workshop p {
+    font-size: 1.3em;
+}
