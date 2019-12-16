@@ -11,11 +11,11 @@ const Trainer = () => {
                 <h1>Headline</h1>
                 <h1>Headline</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur error placeat in dicta ipsam quae, nihil tempore ipsa. Dolorem tempore magni laboriosam tempora illum sit rem debitis!</p>
-                <TrainerItem name="Sam Jayhooni" position="Head of Training" imgURL="./img/trainer/sam.jpg" />
-                <TrainerItem name="Sam Jayhooni" position="Head of Training" imgURL="./img/trainer/sam.jpg" />
-                <TrainerItem name="Sam Jayhooni" position="Head of Training" imgURL="./img/trainer/sam.jpg" />
-                <TrainerItem name="Sam Jayhooni" position="Head of Training" imgURL="./img/trainer/sam.jpg" />
-                <TrainerItem name="Sam Jayhooni" position="Head of Training" imgURL="./img/trainer/sam.jpg" />
+                <TrainerItem name="Sam Jayhooni" position="Head of Training" imgURL="./img/trainer/Sam.jpg" />
+                <TrainerItem name="Sam Jayhooni" position="Head of Training" imgURL="./img/trainer/Sam.jpg" />
+                <TrainerItem name="Sam Jayhooni" position="Head of Training" imgURL="./img/trainer/Sam.jpg" />
+                <TrainerItem name="Sam Jayhooni" position="Head of Training" imgURL="./img/trainer/Sam.jpg" />
+                <TrainerItem name="Sam Jayhooni" position="Head of Training" imgURL="./img/trainer/Sam.jpg" />
             </div>
         </section>
      );
