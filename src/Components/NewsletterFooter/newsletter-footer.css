@@ -1,3 +1,7 @@
+.NewsletterFooter {
+    background: #f0f0f0;
+}
+
 .NewsletterBlau {
     display: flex;
     justify-content: center;
@@ -7,6 +11,7 @@
     color: #47d7ac;
     padding: 40vh 0;
 }
+
 .NewsletterBlau h1 {
     letter-spacing: 3px;
     font-weight: 400;
