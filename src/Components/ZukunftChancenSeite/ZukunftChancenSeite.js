@@ -9,10 +9,15 @@ import TwoColSection from '../TwoColSection/TwoColSection';
 import poster from "../StartSeite/poster.jpg"
 import Workshop from '../Workshops/Workshops';
 import Curriculum from '../Curriculum/Curriculum';
+import TextSliderAlumni from '../TextSliderAlumni/TextSliderAlumni';
+import Card from '../Card/Card';
+import NewsletterFooter from '../NewsletterFooter/NewsletterFooter';
+import Footer from '../footer/Footer';
+
 
 
 const ZukunftChanchenSeite = () => {
-    return ( 
+    return (
         <div>
             <Navigation />
             <ZukunftChancen />
@@ -22,8 +27,12 @@ const ZukunftChanchenSeite = () => {
             <NoMoney />
             <MethodikDidaktik />
             <Workshop />
+            <TextSliderAlumni />
+            <Card />
+            <NewsletterFooter />
+            <Footer />
         </div>
-     );
+    );
 }
- 
+
 export default ZukunftChanchenSeite;
