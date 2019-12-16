@@ -9,7 +9,7 @@ import Footer from '../footer/Footer';
 import Card from '../Card/Card';
 import VideoComponent from '../video/VideoComponent';
 import OneColSection from '../OneColSection/OneColSection';
-import TextSliderAlumni from '../TextSliderAlumni/TextSliderAlumni';
+import TextSlider from '../TextSlider/TextSlider';
 import Partner2 from '../Partner2/Partner2';
 import Blog from '../BlogItem/Blog';
 import NewsletterBox from '../NewsletterFooter/NewsletterBox';
@@ -31,7 +31,7 @@ class StartSeite extends Component {
                 <Card />
                 <OneColSection />
                 <TwoColSection isWhite={false} aside={twoColSection[1].aside} img={poster} title={twoColSection[1].title} title2={twoColSection[1].title2} description={twoColSection[1].description} />
-                <TextSliderAlumni />
+                <TextSlider />
                 <Partner2 />
                 <Blog />
                 <NewsletterBox />
