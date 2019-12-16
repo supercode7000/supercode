@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import CurriculumCard from '../CurriculumCard/CurriculumCard';
 import './curriculum.css'
-import uuid from 'react-uuid'
 
 
 class Curriculum extends Component {
@@ -19,7 +18,7 @@ class Curriculum extends Component {
         this.setState({ email: e.target.value });
     };
     render() {
-        const CurriculumOutput = CurriculumData.map((data) => <CurriculumCard key={uuid()} data={data} />)
+        const CurriculumOutput = CurriculumData.map((data, i) => <CurriculumCard key={i} data={data} />)
         return (
             <section className="Curriculum">
                 {CurriculumOutput}

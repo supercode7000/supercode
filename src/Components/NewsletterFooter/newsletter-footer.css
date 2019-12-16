@@ -1,3 +1,6 @@
+.NewsletterFooter, .NewsletterBox{
+    background: #f0f0f0;
+}
 .NewsletterBlau {
     display: flex;
     justify-content: center;

@@ -2,7 +2,7 @@
     background: #0b0f2c;
     position: relative;
 }
-#blog .react-multi-carousel-item--active:nth-of-type(2){
+#blog .react-multi-carousel-item--active:first-of-type{
     font-size: 40px !important;
 }
 .container-blog{
