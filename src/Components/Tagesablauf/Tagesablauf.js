@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './tagesablauf.css'
 import TagesablaufCard from '../TagesablaufCard/TagesablaufCard';
-import uuid from 'react-uuid'
+
 
 const dataTagesablaufVollzeit = [
     { time: "9:00 - 9:45 Uhr", info: "Wiederholung, Q&A", info2: "Good morning Recap", dauer: "45 Min" },
@@ -35,9 +35,9 @@ class Tagesablauf extends Component {
     render() {
         let dataTagesablauf = "";
         if (this.state.buttonSelected) {
-            dataTagesablauf = dataTagesablaufVollzeit.map((data) => <TagesablaufCard key={uuid()} data={data} />)
+            dataTagesablauf = dataTagesablaufVollzeit.map((data, i) => <TagesablaufCard key={i} data={data} />)
         } else {
-            dataTagesablauf = dataTagesablaufTeilzeit.map((data) => <TagesablaufCard key={uuid()} data={data} />)
+            dataTagesablauf = dataTagesablaufTeilzeit.map((data, i) => <TagesablaufCard key={i} data={data} />)
         };
 
         return (
