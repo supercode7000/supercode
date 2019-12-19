@@ -1,6 +1,7 @@
 import React from 'react';
 import './card.css'
 import CarouselCard from '../CarouselCard/CarouselCard';
+import CarouselCardSmall from '../CarouselCard/CarouselCardSmall';
 const Card = () => {
     return (
         <section id="card">
@@ -15,6 +16,7 @@ const Card = () => {
                 </article>
             </div>
             <CarouselCard className="carousel-card" />
+            <CarouselCardSmall />
             <div className="bg"></div>
         </section>
     );

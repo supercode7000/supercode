@@ -2,7 +2,7 @@
     
 }
 #carousel-card-container{
-    width: 1000px;
+    width: 992px;
     margin-left: auto;
 }
 
@@ -12,3 +12,38 @@
 #carousel-card .react-multi-carousel-list.container{
     max-width: 1200px;
 } 
+#carousel-card-small{
+    display: none;
+    justify-content: center;
+    background:#f0f0f0;
+}
+#carousel-card-small .carousel  {
+    width: 360px;
+    background: #fff;
+    margin-top: 50px;
+    grid-row: span 2;
+
+    transform: translateY(-100px);
+}
+#carousel-card-small .carousel-indicators li {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border-top: 0;
+    border-bottom: 0;
+    background: #0f0f0f;
+}
+#carousel-card-small .carousel-indicators .active {
+    opacity: 1;
+    background: #0f0f0f;
+}
+@media screen and (max-width: 992px) {
+    #carousel-card-container{
+        width:initial
+    }
+    #carousel-card-small{
+        display: flex;}
+}
+@media screen and (max-width: 768px) {
+    
+}

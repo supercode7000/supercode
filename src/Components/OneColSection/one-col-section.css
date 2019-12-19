@@ -17,3 +17,19 @@
 .one-col-section-container span{
     display: block;
 }
+@media screen and (max-width: 992px) {
+    .one-col-section-container p{
+        font-size:1.8em;
+        padding: 50px 20px;
+    }
+}
+@media screen and (max-width: 768px) {
+
+    #one-col-section{
+        padding:5%;
+    }
+    .one-col-section-container p{
+        font-size:1.2em;
+        padding: 50px 20px;
+    }
+}

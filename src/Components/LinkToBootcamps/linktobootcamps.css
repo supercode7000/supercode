@@ -17,7 +17,6 @@
   margin-left: 50px;
 }
 #link-to-bootcamps p{
-    width: 250px;
     font-size: 1.1em;
 }
 #link-to-bootcamps .description-white{
@@ -28,3 +27,16 @@
     font-style: italic;
     color:#47d7ac
  }
+ @media screen and (max-width: 992px) {
+    #link-to-bootcamps{
+        grid-template-columns: repeat(2,1fr);   
+    }
+    #link-to-bootcamps p{
+        grid-column: 1/-1;
+    }
+}
+@media screen and (max-width: 768px) {
+    #link-to-bootcamps{
+        grid-template-columns: repeat(1,1fr);   
+    }
+}
