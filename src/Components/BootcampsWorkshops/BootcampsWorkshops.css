@@ -53,3 +53,33 @@
     font-size: 1.3em;
     line-height: 1.7em;
 }
+
+@media screen and (max-width: 992px) {
+    .BootcampsWorkshops {
+        font-size: .9em;
+    }
+    .BootcampsWorkshops h1 {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .BootcampsWorkshops {
+        font-size: .8em;
+    }
+    .BootcampsWorkshops h1 {
+        padding-top: 5vh;
+        
+        /* font-size: 3em; */
+    }
+    .BootcampsWorkshops figure {
+        display: block;
+    }
+    .BootcampsWorkshops figcaption {
+        padding-top: 5em;
+        width: 80%;
+    }
+    .BootcampsWorkshops img {
+        width: 80%;
+    }
+
+}

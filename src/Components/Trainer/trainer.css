@@ -4,11 +4,11 @@
     box-shadow: inset 23vw 33vh #f0f0f0, inset 23vw -5vh #f0f0f0  ;
     background: #fff;
 }
-.trainer span {
+.trainer-container-aside-span {
     position: absolute;
     transform: rotate(-90deg);
     left: -2%;
-    top: 17%;
+    top: 30%;
     font-size: 1.2em;
     color: #47d7ac;
     text-transform: uppercase;
@@ -37,4 +37,38 @@
 .trainer-container p {
     font-size: 1.3em;
     padding-right: 25%;
+}
+@media screen and (max-width: 992px) {
+    .trainer {
+        padding-bottom: 10vh;
+    }
+    .trainer-container {
+        grid-template-columns: 1fr 1fr;
+    }
+    .trainer-container p {
+        padding-left: 25%;
+        padding-right: 0;
+    }
+    .trainer-container h1 {
+        grid-column: span 2;
+    }
+    .trainer-container .carousel-inner {
+        width: 75%;
+        margin-left: auto;
+    }
+    .trainer-container-aside-span {
+        top: 50%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .trainer-container {
+        grid-template-columns: 1fr;
+    }
+
+    .trainer-container h1 {
+        grid-column: span 1;
+    }
+    .trainer-container-aside-span {
+        top: 40%;
+    }
 }

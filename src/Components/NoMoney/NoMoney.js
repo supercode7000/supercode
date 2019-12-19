@@ -9,7 +9,7 @@ const NoMoney = () => {
                 <h1>No Money</h1>
                 <h2>No Problem</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe praesentium, assumenda vel tenetur earum aspernatur!</p>
-                <a href="">Kontaktier uns</a>
+                <a href="">Kontaktiere uns</a>
             </div>
             <div className="noMoney-textExpand">
                 <TextExpand type="Lorem ipsum dolor sit." title="Bildungsgutschein" expandText="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi similique animi soluta quis sit repudiandae iusto voluptatibus accusamus omnis? Numquam?" />

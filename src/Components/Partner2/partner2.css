@@ -32,7 +32,7 @@
     background: #0f0f0f;
 }
 .partner-text-big {
-    font-size: 2.3rem;
+    font-size: 2.3em;
     letter-spacing: 3px;
     
 }
@@ -57,4 +57,33 @@
     color: #47d7ac;
     text-transform: uppercase;
     letter-spacing: 2px;
+}
+@media screen and (max-width: 992px) {
+    .partner-section {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+
+    }
+    .partner-text {
+        font-size: .9em;
+        box-shadow: none;
+        width: 80%;
+        margin: 0 15% 0 5%;
+        padding: 10%;
+        box-shadow: 0 20vh #47d7ac;
+    }
+    .partner-section .carousel {
+        width: 50%;
+        margin-left: 10%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .partner-text {
+        font-size: .8em;
+        /* width: 60%;
+        margin: 0 35% 0 5%; */
+    }
+    .partner-section aside {
+        right: -5%;
+    }
 }

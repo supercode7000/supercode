@@ -56,5 +56,16 @@
     color: rgba(11, 15, 44, 0.6);   
 }
 .textSliderAlumniQuote {
-    font-size: 25px;
+    font-size: 1.5em;
+}
+
+@media screen and (max-width: 992px) {
+    .textSliderAlumniSection{
+        font-size: .9em;
+    }
+}
+@media screen and (max-width: 768px) {
+    .textSliderAlumniSection {
+        font-size: .8em;
+    }
 }

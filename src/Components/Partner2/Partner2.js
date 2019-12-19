@@ -10,7 +10,7 @@ class Partner2 extends Component {
                 <aside>unser netzwerk</aside>
                 <div className="partner-text">
                     <div className="partner-text-big">
-                        Unsere Partner sind von Anfang an in den Ablauf der Kurse integriert - so ist die Preaxisnähe garantiert.
+                        Unsere Partner sind von Anfang an in den Ablauf der Kurse integriert - so ist die Praxisnähe garantiert.
                     </div>
                     <div className="partner-text-small">
                         Du möchtest uns unterstützen und <a href="#">Partner</a> werden?

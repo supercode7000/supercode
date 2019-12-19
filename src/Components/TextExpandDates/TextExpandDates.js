@@ -19,11 +19,11 @@ class TextExpand extends Component {
             <div onClick={this.onToggle} className="TextExpandDates">
                 <div className="TextExpandDates-container">
                     <div className="TextExpandDates-date"><FontAwesomeIcon icon={faCalendar} /> {this.props.date}</div>
-                    <div>
+                    <div className="TextExpandDates-infos">
                         <div className="TextExpandDates-type">{this.props.type}</div>
                         <div className="TextExpandDates-type-title">{this.props.title}</div>
                     </div>
-                    <div><span>{this.state.expand ? '-' : '+'}</span> </div>
+                    <div className="TextExpandDates-button"><span>{this.state.expand ? '-' : '+'}</span> </div>
                 </div>
                 <div className="TextExpandDates-expand" style={{display: this.state.expand ? 'block' : 'none' }}>{this.props.expandText}</div>
             </div>

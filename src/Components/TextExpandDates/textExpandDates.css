@@ -36,3 +36,21 @@
     font-size: 1.2em;
     line-height: 2em;
 }
+
+@media screen and (max-width: 768px) {
+    .TextExpandDates-container {
+        grid-template-columns: 90% 10%;
+        grid-template-areas: 
+        "date button"
+        "title title";
+    }
+    .TextExpandDates-date {
+        grid-area: date;
+    }
+    .TextExpandDates-button {
+        grid-area: button;
+    }
+    .TextExpandDates-infos {
+        grid-area: title;
+    }
+}

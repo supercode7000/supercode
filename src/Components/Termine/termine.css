@@ -10,7 +10,6 @@
     font-size: 4em;
     font-weight: 400;
     padding-bottom: 5%;
-    
 }
 
 .TextExpandContainer {
@@ -25,4 +24,32 @@
 .termine-aside p {
     padding: 5% 1%;
     font-size: 1.5em;
+}
+
+@media screen and (max-width: 992px) {
+    .termine .termine-aside {
+        font-size: .9em;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    .termine {
+        font-size: .8em;
+        grid-template-columns: 1fr;
+    }
+    .termine .termine-aside {
+        grid-row: 1;
+        width: 100%;
+        padding: 0 5% 0 35%;
+        background-color: #00DEAC;
+        box-shadow: inset 10vw 3vh 0 #f0f0f0;
+    }
+    .termine h1 {
+        padding: 0;
+    }   
+    .termine .TextExpandContainer {
+        margin-top: 0;
+        padding-left: 5%;
+        box-shadow: 10vw 10vh 0 #00DEAC;
+    }
 }
