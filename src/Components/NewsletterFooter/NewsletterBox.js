@@ -19,7 +19,7 @@ const NewsletterBox = () => {
                     <span>super</span>
                     <Typing.Backspace count={6} delay={100} />
                     <span>Kaffee</span>
-                    <Typing.Backspace count={7} delay={100} />Ko
+                    <Typing.Backspace count={7} delay={100} />
                 </Typing>
                 <span className="FooterTypingGreen">)</span>
 
