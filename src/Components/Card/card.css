@@ -3,7 +3,7 @@
 }
 #carousel-card{
     position: absolute;
-    top: 30%;
+    top: 40%;
     right: 0;
 }
 #card .card-title-container{
@@ -28,16 +28,39 @@
 #card .card-description-container article{
     background: #47d7ac;
     padding:8% 10% ;
-    width: 70%;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 }
 #card article p{
-    margin-top: 30px;
+    margin-top: 0px;
     font-size: 1.1em;
 }
 #card article span{
-    display: block;
 }
 .bg{
     height: 600px;
     background: #f0f0f0;
+}
+@media screen and (max-width: 992px) {
+    #carousel-card,.bg{
+        display: none;
+    }
+    #card .card-description-container article{
+        width: 100%;
+    }
+    #card .card-title{
+        font-size: 2em;
+        transform: translateY(18px);
+    }
+}
+@media screen and (max-width: 768px) {
+    #card .card-description-container article{
+        grid-template-columns: 1fr;
+    }
+    #card .card-title{
+        font-size: 2em;
+        transform: translateY(18px);
+        
+    }
 }

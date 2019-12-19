@@ -11,6 +11,7 @@ const Home = () => {
                 <h1 className="home-start-seite">Wir sind super(code)</h1>
                 <h1 className="home-start-seite typing"><span>Wir sind </span>
                     <span>
+<<<<<<< HEAD
                         <Typing className="my-typing" loop={true} speed={1}>
                             <span>Digital</span>
                             <Typing.Backspace count={8} delay={100} />
@@ -22,6 +23,24 @@ const Home = () => {
                             <Typing.Backspace count={6} delay={100} />
                             <span> Super </span>
                             <Typing.Backspace count={7} delay={100} />
+=======
+                        <Typing className="my-typing" loop={true}>
+                            <Typing.Speed ms={20} />
+                            <span>Digital</span>
+                            <Typing.Backspace count={8} speed={10} />
+                            <Typing.Speed ms={20} />
+                            <span> Javascript</span>
+                            <Typing.Backspace count={12} speed={10} />
+                            <Typing.Speed ms={20} />
+                            <span> React</span>
+                            <Typing.Backspace count={7} speed={10} />
+                            <Typing.Speed ms={20} />
+                            <span> Cool</span>
+                            <Typing.Backspace count={6} speed={10} />
+                            <Typing.Speed ms={20} />
+                            <span> Super</span>
+                            <Typing.Backspace count={7} speed={10} />
+>>>>>>> 884ce257a1eb999823f3eef25eeac81746fb758b
                         </Typing>
                     </span>
                 </h1>

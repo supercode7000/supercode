@@ -21,7 +21,7 @@
 #zukunft img{
     display: block;
     margin-left: auto;
-    transform: translateY(-150px);
+    transform: translateY(-120px);
     width: 80%;
 }
 #zukunft>span{
@@ -33,4 +33,33 @@
     color: #47d7ac;
     text-transform: uppercase;
     letter-spacing: 2px;
+}
+@media screen and (max-width: 992px) {
+    .zukunft-title{
+        font-size: 2.6em;
+        
+        transform: translateY(24px);
+    }
+    #zukunft img{
+        transform: translateY(-80px);
+    }
+    #zukunft>span{
+        position: absolute;
+        transform: rotate(-90deg);
+        left: -5%;
+        bottom: 20%;
+        
+    }
+}
+@media screen and (max-width: 768px) {
+    #zukunft img{
+        transform: translateY(-20px);
+    }
+    #zukunft>span{
+        position: absolute;
+        transform: rotate(-90deg);
+        left: -5%;
+        bottom: 14%;
+        
+    }
 }

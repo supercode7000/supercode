@@ -32,7 +32,7 @@ const CarouselCard = () => {
                         desktop: {
                             breakpoint: {
                                 max: 3000,
-                                min: 1024
+                                min: 992
                             },
                             items: 2,
                             partialVisibilityGutter: 50
@@ -47,11 +47,11 @@ const CarouselCard = () => {
                         },
                         tablet: {
                             breakpoint: {
-                                max: 1024,
+                                max: 992,
                                 min: 464
                             },
                             items: 2,
-                            partialVisibilityGutter: 30
+                            partialVisibilityGutter: 0
                         }
                     }}
                     showDots={false}

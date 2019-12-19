@@ -1,6 +1,6 @@
 #carousel-card-item{
     text-align: center;
-    padding:30px 20px ;
+    padding:30px 20px 50px;
     display: inline-block;
     color: #0b0f2c;
     width: 360px;
@@ -48,4 +48,5 @@
     color: #0b0f2c;
     text-transform: uppercase;
     border-bottom: 3px solid #47d7ac;
+    
 }

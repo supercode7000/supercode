@@ -17,15 +17,14 @@
     left: -3vw;
 }
 .videoContainerTextContainer {
-    height: 80vh;
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 .videoContainerText {
     position: relative;
-    width: 40%;
-    margin: 0 20% 0 40%;
+    
+    margin: 0 20% 0 20%;
     font-size: 2.2rem;
     z-index: 1;
 }
@@ -55,7 +54,8 @@
     box-shadow: -20vw 10vh #00DEAC, 10vw 10vh #00DEAC; 
 }
 
-@media only screen and (max-width: 1000px) {
+
+@media screen and (max-width: 992px) {
     .iframe-container {
         width: 80%;
     }
@@ -76,5 +76,10 @@
     }
     .iframe-container {
         padding-top: 56.25%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .home-start-seite{
+        font-size: 1.5em;
     }
 }
