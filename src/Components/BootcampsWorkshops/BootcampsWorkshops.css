@@ -60,6 +60,7 @@
     }
     .BootcampsWorkshops h1 {
         width: 80%;
+        font-size: 5em;
     }
 }
 @media screen and (max-width: 768px) {
@@ -68,8 +69,7 @@
     }
     .BootcampsWorkshops h1 {
         padding-top: 5vh;
-        
-        /* font-size: 3em; */
+        font-size: 4em;
     }
     .BootcampsWorkshops figure {
         display: block;

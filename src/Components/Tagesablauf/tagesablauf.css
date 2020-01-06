@@ -24,9 +24,10 @@
 }
 
 .Tagesablauf-Container {
-    padding-top: 20px;
+    margin-top: 20px;
     display: grid;
     grid-template-columns: 30% 70%;
+    box-shadow: -30vw -100px #00DEAC;
 }
 .Tagesablauf h1 {
     padding-left: 10vw;
@@ -36,15 +37,29 @@
     padding-bottom: 5%;
     position: relative;
     z-index: 56;
-    box-shadow: inset 0px 50px #f0f0f0;
 }
 .Tagesablauf-Select {
     padding: 0 60px 0 10vw;
     font-size: 1.2em;
     letter-spacing: 2px;
-    box-shadow: inset 0 53vh #00DEAC, 0vh -30vh #00DEAC, 80vh -30vh #00DEAC, 50vh -30vh #00DEAC;
+    background: #00DEAC;
+    box-shadow: inset 0px -300px #f0f0f0;
 }
 
 .Tagesablauf-Tagesablauf {
     background: #ffffff;
+}
+@media screen and (max-width: 992px) {
+    .Tagesablauf-Container {
+        grid-template-columns: 1fr;
+        box-shadow: 100px -100px #00DEAC;
+    }
+    .Tagesablauf-Select {
+        padding: 0 5% 5% 35%;
+        background: #00DEAC;
+        box-shadow: inset 100px 0px #f0f0f0;
+    }
+}
+@media screen and (max-width: 768px) {
+    
 }

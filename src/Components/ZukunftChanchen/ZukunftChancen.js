@@ -7,8 +7,8 @@ import { faPhoneAlt } from '@fortawesome/free-solid-svg-icons'
 const ZukunftChancen = () => {
     return ( 
         <section className="ZukunftChancen">
-            <span> <FontAwesomeIcon icon={faPhoneAlt} />+49 211 7817 233-0</span>
-            <h1>Zukunft &#38; Chancen</h1>
+            <span className="zukunft-chancen-span-aside"> <FontAwesomeIcon icon={faPhoneAlt} />+49 211 7817 233-0</span>
+            <h1><span className="zukunft-h1-span">Zukunft &#38;</span> Chancen</h1>
             <figure>
                 <img src="./img/DSC2283_LowRes.jpg" alt="superCode Kursalltag"/>
                 <figcaption>

@@ -4,23 +4,26 @@
     background: #f0f0f0;
     color:#0f0f0f
 }
-
+.zukunft-h1-span {
+    display: block;
+}
 .ZukunftChancen h1 {
     font-size: 6em;
     padding-left: 10%;
-    width: 50%;
+    width: 90%;
     font-weight: 400;
 }
 
-.ZukunftChancen span {
+.zukunft-chancen-span-aside {
     position: absolute;
     transform: rotate(-90deg);
-    right: -2vw;
+    right: 3%;
     top: 18%;
     font-size: 1.2em;
     color: #0b0f2c;
     text-transform: uppercase;
     letter-spacing: 2px;
+    transform-origin: right;
 }
 
 .ZukunftChancen figure {
@@ -54,4 +57,27 @@
 .ZukunftChancen p {
     font-size: 1.3em;
     line-height: 1.7em;
+}
+
+@media screen and (max-width: 992px) {
+    .ZukunftChancen h1 {
+        font-size: 5em;
+    }
+    .ZukunftChancen figure {
+        flex-direction: column;
+    }
+    .ZukunftChancen figcaption {
+        width: 80%;
+        padding-top: 10%;
+    }
+    .ZukunftChancen img {
+        width: 90%;
+        
+    }
+}
+@media screen and (max-width: 768px) {
+    .ZukunftChancen h1 {
+        font-size: 4em;
+        
+    }
 }

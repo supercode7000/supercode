@@ -28,3 +28,21 @@
 .Tagesablauf-Dauer svg {
     margin-right: 10px;
 }
+
+@media screen and (max-width: 992px) {
+    .Tagesablauf-Tagesablauf {
+        background: #f0f0f0;
+        
+        box-shadow: inset 100px 0px #f0f0f0;
+        background: #00DEAC;
+    }
+    .TagesablaufCard {
+        background: #fff;
+        margin-bottom: 30px;
+        padding-left: 10vw;
+        box-shadow: inset 5vw 0px #f0f0f0;
+    }
+}
+@media screen and (max-width: 768px) {
+    
+}
