@@ -33,9 +33,9 @@ class StartSeite extends Component {
                 <TwoColSection isWhite={false} aside={twoColSection[1].aside} img={poster} title={twoColSection[1].title} title2={twoColSection[1].title2} description={twoColSection[1].description} />
                 <TextSlider />
                 <Partner2 />
-                <Blog />
+                {/* <Blog /> */}
                 <NewsletterBox />
-                <Footer></Footer>
+                <Footer />
             </div>
 
         );

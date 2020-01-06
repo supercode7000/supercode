@@ -75,7 +75,7 @@
     }
     .partner-section .carousel {
         width: 50%;
-        margin-left: 10%;
+        margin: 0 30% 0 20%;
     }
 }
 @media screen and (max-width: 768px) {

@@ -39,3 +39,14 @@
 .textSliderButtonBack {
     color: rgba(11, 15, 44, 0.6);   
 }
+@media screen and (max-width: 992px) {
+    .textSliderText {
+        font-size: 1em;
+    }
+    .textSliderFooter {
+        padding-top: 3em;
+    }
+}
+@media screen and (max-width: 768px) {
+    
+}

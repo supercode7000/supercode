@@ -60,12 +60,13 @@
 }
 
 @media screen and (max-width: 992px) {
-    .textSliderAlumniSection{
-        font-size: .9em;
+    .textSliderAlumniText {
+        font-size: 1em;
+    }
+    .textSliderAlumniFooter {
+        padding-top: 3em;
     }
 }
 @media screen and (max-width: 768px) {
-    .textSliderAlumniSection {
-        font-size: .8em;
-    }
+    
 }

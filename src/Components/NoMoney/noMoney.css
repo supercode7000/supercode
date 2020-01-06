@@ -56,6 +56,10 @@
     .noMoney-aside {
         grid-row: 1
     }
+    .noMoney-aside p {
+        padding: 20% 0 5%;
+        font-size: 1.8em;
+    }
     
 }
 @media screen and (max-width: 768px) {
