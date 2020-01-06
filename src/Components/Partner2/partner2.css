@@ -51,7 +51,8 @@
 .partner-section aside {
     position: absolute;
     transform: rotate(-90deg);
-    right: 2%;
+    transform-origin: right;
+    right: 5%;
     top: 25%;
     font-size: 1.2em;
     color: #47d7ac;
@@ -80,10 +81,9 @@
 @media screen and (max-width: 768px) {
     .partner-text {
         font-size: .8em;
-        /* width: 60%;
-        margin: 0 35% 0 5%; */
+        
     }
     .partner-section aside {
-        right: -5%;
+        right: 3%;
     }
 }

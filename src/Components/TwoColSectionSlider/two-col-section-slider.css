@@ -31,8 +31,9 @@
 }
 .two-col-section-slider-aside {
     position: absolute;
+    transform-origin: right;
     transform: rotate(-90deg);
-    right: 2%;
+    right: 5%;
     top: 40%;
     font-size: 1.2em;
     color: #47d7ac;
@@ -73,5 +74,8 @@
     }
     .two-col-section-slider .SliderControle {
         padding-right: 10%;
+    }
+    .two-col-section-slider-aside {
+        top:30%
     }
 }
