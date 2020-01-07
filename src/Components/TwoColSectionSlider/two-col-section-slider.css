@@ -79,3 +79,8 @@
         top:30%
     }
 }
+@media screen and (max-width: 568px) {
+    .two-col-section-slider-text h2, .two-col-section-slider-text p {
+        width: 100%;
+    }    
+}
