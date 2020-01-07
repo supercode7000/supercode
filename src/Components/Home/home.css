@@ -19,7 +19,7 @@
 }
 @media screen and (max-width: 992px) {
     #home-start-seite{
-        padding: 100px 10%;
+        padding: 200px 10% 100px;
     }
     .home-start-seite{
         font-size: 2.5em;
@@ -28,5 +28,11 @@
 @media screen and (max-width: 768px) {
     .home-start-seite{
         font-size: 1.5em;
+    }
+}
+@media screen and (max-width: 568px) {
+    .home-start-seite{
+        font-size: 1em;
+        letter-spacing: 3px;
     }
 }

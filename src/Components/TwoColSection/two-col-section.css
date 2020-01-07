@@ -58,3 +58,18 @@
         max-height: none;
     }
 }
+@media screen and (max-width: 568px) {
+    .two-col-section span{
+        font-size: 0.8em;
+        right: 3%;
+    }
+    .two-col-section img.green{
+        box-shadow:15px 15px 0 #47d7ac; 
+    }
+    .two-col-section img.white{
+        box-shadow: 15px 15px 0 #fff;
+    }
+    .two-col-section-text{
+        padding:20px 0;
+    }
+}

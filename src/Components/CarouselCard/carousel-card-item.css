@@ -50,3 +50,11 @@
     border-bottom: 3px solid #47d7ac;
     
 }
+@media screen and (max-width: 568px) {
+    #carousel-card-item .carousel-card-item-text{
+        font-size: 0.8em;
+    }
+    #carousel-card-item{
+        width: 300px;
+    }
+}
