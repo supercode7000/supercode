@@ -69,13 +69,13 @@
         font-size: .9em;
         box-shadow: none;
         width: 80%;
-        margin: 0 15% 0 5%;
+        margin: 0 auto;
         padding: 10%;
         box-shadow: 0 20vh #47d7ac;
     }
     .partner-section .carousel {
         width: 50%;
-        margin: 0 30% 0 20%;
+        margin: 0 auto;
     }
 }
 @media screen and (max-width: 768px) {
@@ -85,5 +85,10 @@
     }
     .partner-section aside {
         right: 3%;
+    }
+}
+@media screen and (max-width: 568px) {
+    .partner-section aside {
+        font-size: 0.8em;
     }
 }

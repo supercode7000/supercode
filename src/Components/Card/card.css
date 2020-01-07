@@ -64,3 +64,14 @@
         
     }
 }
+@media screen and (max-width: 568px) {
+    
+    #card .card-title{
+        font-size: 1.3em;
+        transform: translateY(13px);
+        
+    }
+    #card .card-description-container article{
+        padding: 20% 10%;
+    }
+}

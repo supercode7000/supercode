@@ -47,6 +47,8 @@
         padding-top: 3em;
     }
 }
-@media screen and (max-width: 768px) {
-    
+@media screen and (max-width: 568px) {
+    .textSliderSection {
+        padding: 10%;
+    }
 }
