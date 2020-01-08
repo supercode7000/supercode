@@ -12,21 +12,21 @@ const Home = () => {
                 <h1 className="home-start-seite typing"><span>Wir sind </span>
                     <span>
                         <Typing className="my-typing" loop={true}>
-                            <Typing.Speed ms={20} />
+                            <Typing.Speed ms={200} />
                             <span>Digital</span>
-                            <Typing.Backspace count={8} speed={10} />
+                            <Typing.Backspace count={8} speed={200} />
                             <Typing.Speed ms={20} />
                             <span> JS</span>
-                            <Typing.Backspace count={3} speed={10} />
+                            <Typing.Backspace count={3} speed={200} />
                             <Typing.Speed ms={20} />
                             <span> React</span>
-                            <Typing.Backspace count={7} speed={10} />
+                            <Typing.Backspace count={7} speed={200} />
                             <Typing.Speed ms={20} />
                             <span> Cool</span>
-                            <Typing.Backspace count={6} speed={10} />
+                            <Typing.Backspace count={6} speed={200} />
                             <Typing.Speed ms={20} />
                             <span> Super</span>
-                            <Typing.Backspace count={7} speed={10} />
+                            <Typing.Backspace count={7} speed={200} />
                         </Typing>
                     </span>
                 </h1>
