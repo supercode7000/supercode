@@ -16,8 +16,8 @@ const Home = () => {
                             <span>Digital</span>
                             <Typing.Backspace count={8} speed={10} />
                             <Typing.Speed ms={20} />
-                            <span> Javascript</span>
-                            <Typing.Backspace count={12} speed={10} />
+                            <span> JS</span>
+                            <Typing.Backspace count={3} speed={10} />
                             <Typing.Speed ms={20} />
                             <span> React</span>
                             <Typing.Backspace count={7} speed={10} />

@@ -60,3 +60,13 @@
     border-bottom: 3px solid #fff;
     outline: none;
 }
+@media screen and (max-width: 568px) {
+    .Curriculum-NewsletterInput [type="email"] {
+        /* padding: 0 20px; */
+        width: auto;
+    }
+    .Curriculum-NewsletterInput [type="submit"] {
+        border: none;
+        
+    }
+}

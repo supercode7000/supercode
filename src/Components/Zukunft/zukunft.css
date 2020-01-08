@@ -37,15 +37,12 @@
 @media screen and (max-width: 992px) {
     .zukunft-title{
         font-size: 2.6em;
-        
         transform: translateY(24px);
     }
     #zukunft img{
         transform: translateY(-80px);
     }
     #zukunft>span{
-        position: absolute;
-        transform: rotate(-90deg);
         left: -5%;
         bottom: 20%;
         
@@ -56,10 +53,21 @@
         transform: translateY(-20px);
     }
     #zukunft>span{
-        position: absolute;
-        transform: rotate(-90deg);
         left: -5%;
         bottom: 14%;
         
+    }
+    .zukunft-title{
+        font-size: 2.2em;
+        transform: translateY(20px);
+    }
+}
+@media screen and (max-width: 568px) {
+    #zukunft>span{
+        display: none;
+    }
+    .zukunft-title{
+        font-size: 1.8em;
+        transform: translateY(16px);
     }
 }

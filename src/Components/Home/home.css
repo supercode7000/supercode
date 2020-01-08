@@ -32,7 +32,7 @@
 }
 @media screen and (max-width: 568px) {
     .home-start-seite{
-        font-size: 1em;
+        font-size: 1.1em !important;
         letter-spacing: 3px;
     }
 }

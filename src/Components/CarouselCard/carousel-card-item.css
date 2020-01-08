@@ -54,7 +54,9 @@
     #carousel-card-item .carousel-card-item-text{
         font-size: 0.8em;
     }
+}
+@media screen and (max-width: 360px) {
     #carousel-card-item{
-        width: 300px;
+        width: 320px;
     }
 }

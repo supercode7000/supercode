@@ -24,7 +24,7 @@ class StartSeite extends Component {
             <div>
                 <Navigation />
                 <Home />
-                {/* <VideoComponent /> */}
+                <VideoComponent />
                 <MethodikDidaktik />
                 <TwoColSection isWhite={true} aside={twoColSection[0].aside} img={poster} title={twoColSection[0].title} title2={twoColSection[0].title2} description={twoColSection[0].description} link={twoColSection[0].link} />
                 <Zukunft />
