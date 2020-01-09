@@ -70,4 +70,7 @@
         font-size: 1.8em;
         transform: translateY(16px);
     }
+     #zukunft img{
+        width:100%
+    }
 }
