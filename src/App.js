@@ -38,7 +38,6 @@ class App extends Component {
             <Route path="/anmeldung" component="" />
             <Route path="/impressum" component="" />
             <Route path="/datenschutz" component="" />
-
             <Route component="" /> {/* für Error */}
           </Switch>
         </Router>

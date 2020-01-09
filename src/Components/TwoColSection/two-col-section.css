@@ -12,7 +12,7 @@
     width: 100%;
 }
 .two-col-section img.green{
-    box-shadow: 30px 30px 0 #47d7ac;
+    box-shadow: 30px 30px 0 #3DD7AC;
     max-height: 450px;
     width: 100%;
 }
@@ -37,7 +37,7 @@
     letter-spacing: 3px;
     color: #0b0f2c;
     text-transform: uppercase;
-    border-bottom: 3px solid #47d7ac;
+    border-bottom: 3px solid #3DD7AC;
 }
 .two-col-section span{
     position: absolute;
@@ -46,7 +46,7 @@
     right: 3%;
     top: 20%;
     font-size: 1.2em;
-    color: #47d7ac;
+    color: #3DD7AC;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -67,7 +67,7 @@
         right: 3%;
     }
     .two-col-section img.green{
-        box-shadow:15px 15px 0 #47d7ac; 
+        box-shadow:15px 15px 0 #3DD7AC; 
     }
     .two-col-section img.white{
         box-shadow: 15px 15px 0 #fff;

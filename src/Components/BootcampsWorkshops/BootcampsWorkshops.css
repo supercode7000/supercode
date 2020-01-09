@@ -8,11 +8,14 @@
 .BootcampsWorkshops h1 {
     font-size: 6em;
     padding-left: 10%;
-    width: 50%;
+    width: 80%;
     font-weight: 400;
 }
+.BootcampsWorkshops h1 span {
+    display: block;
+}
 
-.BootcampsWorkshops span {
+.BootcampsWorkshops-span-aside {
     position: absolute;
     transform: rotate(-90deg);
     transform-origin: right;

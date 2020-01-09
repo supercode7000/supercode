@@ -17,7 +17,7 @@
 }
 
 .Curriculum-Newsletter {
-    background: #47d7ac;
+    background: #3DD7AC;
     padding: 5%;
     width: 60%;
 }
@@ -43,7 +43,7 @@
 .Curriculum-NewsletterInput [type="email"] {
     /* padding: 0 20px; */
     width: 350px;
-    background: #47d7ac ;
+    background: #3DD7AC ;
     border: none;
     padding-bottom: 8px;
     border-bottom: 3px solid #fff;
@@ -53,7 +53,7 @@
 }
 
 .Curriculum-NewsletterInput [type="submit"] {
-    background-color: #47d7ac;
+    background-color: #3DD7AC;
     border: none;
     font-size: 1.3em;
     color: #fff;
