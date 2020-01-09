@@ -10,7 +10,7 @@
 }
 
 .videoContainer .textSeite {
-    color: #00DEAC;
+    color: #3DD7AC;
     transform: rotate(-90deg);
     position: absolute;
     transform-origin: left;
@@ -50,7 +50,7 @@
     width: 50%;
     height: auto;
     right: 0;
-    box-shadow: -20vw 10vh #00DEAC, 10vw 10vh #00DEAC; 
+    box-shadow: -20vw 10vh #3DD7AC, 10vw 10vh #3DD7AC; 
 }
 
 

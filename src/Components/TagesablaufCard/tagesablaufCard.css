@@ -12,7 +12,7 @@
 
 .Tagesablauf-Info-type {
     font-style: italic;
-    color: #00DEAC;
+    color: #3DD7AC;
     font-size: 1.2em;
 }
 
@@ -34,7 +34,7 @@
         background: #f0f0f0;
         
         box-shadow: inset 100px 0px #f0f0f0;
-        background: #00DEAC;
+        background: #3DD7AC;
     }
     .TagesablaufCard {
         background: #fff;
