@@ -81,14 +81,23 @@
 @media screen and (max-width: 768px) {
     .partner-text {
         font-size: .8em;
-        
+        padding: 8%;
     }
     .partner-section aside {
         right: 3%;
     }
+    .partner-text-big {
+        font-size: 2em;
+    }
 }
 @media screen and (max-width: 568px) {
+    .partner-text-big {
+        font-size: 1.6em;
+    }
     .partner-section aside {
         font-size: 0.8em;
+    }
+    .partner-text {
+        padding: 5%;
     }
 }

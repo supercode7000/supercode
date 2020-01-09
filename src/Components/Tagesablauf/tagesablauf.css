@@ -61,5 +61,8 @@
     }
 }
 @media screen and (max-width: 768px) {
-    
+    .Tagesablauf h1 {
+        padding-left: 10%;
+        transform: translateY(-20px);
+    }
 }

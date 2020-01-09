@@ -10,8 +10,6 @@ class Termine extends Component {
     render() {
         return (
             <section className="termine">
-
-
                 <div className="TextExpandContainer">
                     <TextExpandDates date="06.01.2020" type="Workshop" title="Web-Entwicklung Front-End" expandText="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi similique animi soluta quis sit repudiandae iusto voluptatibus accusamus omnis? Numquam?" />
                     <TextExpandDates date="06.01.2020" type="Workshop" title="Web-Entwicklung Front-End" expandText="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi similique animi soluta quis sit repudiandae iusto voluptatibus accusamus omnis? Numquam?" />

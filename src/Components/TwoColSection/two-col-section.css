@@ -57,6 +57,9 @@
     .two-col-section img{
         max-height: none;
     }
+    .two-col-section-text{
+        padding:20px 0%;
+    }
 }
 @media screen and (max-width: 568px) {
     .two-col-section span{

@@ -9,6 +9,7 @@ import {
 import StartSeite from './Components/StartSeite/StartSeite'
 import KursSeite from './Components/KursSeite/KursSeite';
 import ZukunftChancenSeite from './Components/ZukunftChancenSeite/ZukunftChancenSeite'
+import VideoComponent from './Components/video/VideoComponent';
 
 
 class App extends Component {
@@ -34,7 +35,7 @@ class App extends Component {
             <Route path="/kurse" component={KursSeite} />
             <Route path="/finanzierung" component={ZukunftChancenSeite} />
 
-            <Route path="/events" component="" />
+            <Route path="/events" component={VideoComponent} />
             <Route path="/anmeldung" component="" />
             <Route path="/impressum" component="" />
             <Route path="/datenschutz" component="" />

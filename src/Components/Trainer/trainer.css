@@ -73,3 +73,8 @@
         top: 40%;
     }
 }
+@media screen and (max-width: 568px) {
+    .trainer-container h1 {
+        font-size: 3em;
+    }
+}

@@ -53,3 +53,13 @@
         box-shadow: 10vw 10vh 0 #00DEAC;
     }
 }
+@media screen and (max-width: 568px) {
+    .termine {
+        padding-bottom: 30vh;
+    }
+    .termine .termine-aside {
+        padding: 0 5% 0 20%;
+    }
+    
+    
+}

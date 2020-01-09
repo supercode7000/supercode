@@ -11,7 +11,7 @@
     width: 60%;
     margin: 0 auto;
     position: relative;
-    z-index: 6666;
+    z-index: 100;
     grid-row: span 2;
 }
 
@@ -66,5 +66,14 @@
     .noMoney-container {
         font-size: .8em;
         box-shadow: inset 10vw 15vh #f0f0f0, inset 10vw -40vh #f0f0f0;
+    }
+}
+@media screen and (max-width: 568px) {
+    .noMoney-container h1, .noMoney-container h2{
+        font-size: 3em;
+    }
+    .noMoney-aside {
+        width: 80%;
+        margin: 0 5% 0 15%;
     }
 }

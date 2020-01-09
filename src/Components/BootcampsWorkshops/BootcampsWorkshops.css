@@ -1,5 +1,5 @@
 .BootcampsWorkshops {
-    padding: 10vh 0;
+    padding: 200px 0 100px;
     position: relative;
     background: #f0f0f0;
     color:#0f0f0f
@@ -17,7 +17,7 @@
     transform: rotate(-90deg);
     transform-origin: right;
     right: 3vw;
-    top: 18%;
+    top: 25%;
     font-size: 1.2em;
     color: #0b0f2c;
     text-transform: uppercase;
