@@ -15,7 +15,8 @@
 .BootcampsWorkshops span {
     position: absolute;
     transform: rotate(-90deg);
-    right: -2vw;
+    transform-origin: right;
+    right: 3vw;
     top: 18%;
     font-size: 1.2em;
     color: #0b0f2c;
@@ -39,7 +40,6 @@
     padding-top: 5%;
     width: 30%;
     margin: 0 auto;
-    
 }
 
 .BootcampsWorkshops h2 {
@@ -81,5 +81,13 @@
     .BootcampsWorkshops img {
         width: 80%;
     }
-
+}
+@media screen and (max-width: 568px) {
+    .BootcampsWorkshops h1 {
+        width: 80%;
+        font-size: 2.5em;
+    }
+    .BootcampsWorkshops h2 {
+        font-size: 1.8em;
+    }
 }
