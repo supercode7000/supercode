@@ -34,7 +34,6 @@ class App extends Component {
             <Route path="/" component={StartSeite} exact />
             <Route path="/kurse" component={KursSeite} />
             <Route path="/finanzierung" component={ZukunftChancenSeite} />
-
             <Route path="/events" component={VideoComponent} />
             <Route path="/anmeldung" component="" />
             <Route path="/impressum" component="" />
