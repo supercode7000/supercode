@@ -34,15 +34,18 @@
 
 }
 .Curriculum-NewsletterInput {
+    width: 100%;
     display: flex;
     justify-content: center;
     padding-top: 80px;
-    
+}
+.Curriculum-NewsletterInput form {
+    width: 70%;
 }
 
 .Curriculum-NewsletterInput [type="email"] {
     /* padding: 0 20px; */
-    width: 350px;
+    width: 80%;
     background: #3DD7AC ;
     border: none;
     padding-bottom: 8px;
@@ -60,16 +63,25 @@
     padding-bottom: 8px;
     border-bottom: 3px solid #fff;
     outline: none;
+    
 }
+.Curriculum-Newsletter-span {
+    display: inline-block;
+}
+@media screen and (max-width: 768px) {
+    .Curriculum-NewsletterInput form {
+        width: auto;
+    }
+    .Curriculum-Newsletter h1 {
+        width: auto;
+    }
+}
+
 @media screen and (max-width: 568px) {
     .Curriculum-NewsletterInput [type="email"] {
         /* padding: 0 20px; */
         width: 220px;
     }
-    .Curriculum-NewsletterInput [type="submit"] {
-        border: none;
-        
-    }   
 .Curriculum-Newsletter h1 {
     font-size: 1.5em;
 

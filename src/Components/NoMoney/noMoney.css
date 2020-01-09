@@ -75,4 +75,7 @@
         width: 80%;
         margin: 0 5% 0 15%;
     }
+    .noMoney-aside p {
+        padding: 0;
+    }
 }

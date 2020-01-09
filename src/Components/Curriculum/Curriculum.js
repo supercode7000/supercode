@@ -24,7 +24,7 @@ class Curriculum extends Component {
                 {CurriculumOutput}
                 <div className="Curriculum-hide">
                     <div className="Curriculum-Newsletter">
-                        <h1>Bekomme den detaillierten Lehrpan als E-Mail zugeschickt</h1>
+                        <h1>Bekomme den detaillierten Lehrplan als <span className="Curriculum-Newsletter-span">E-Mail</span> zugeschickt</h1>
                         <div className="Curriculum-NewsletterInput">
                             <form>
                                 <input type="email" name="newsletter" id="CurriculumNewsletter" placeholder="Deine E-Mail" onChange={this.handleEmail} required />

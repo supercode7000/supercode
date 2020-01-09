@@ -14,7 +14,8 @@ class TagesablaufCard extends Component {
         return ( 
             <div className="TagesablaufCard">
                 <div className="Tagesablauf-Time">
-                    {this.props.data.time}
+                    <span className="Tagesablauf-Time-span">{this.props.data.time}</span>
+                    {this.props.data.time2}
                 </div>
                 <div className="Tagesablauf-Info">
                     <div className="Tagesablauf-Info-type">{this.props.data.info}</div>
