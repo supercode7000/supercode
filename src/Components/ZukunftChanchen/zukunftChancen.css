@@ -35,7 +35,7 @@
 
 .ZukunftChancen img {
     width: 50%;
-    box-shadow: 30px 30px #00DEAC; 
+    box-shadow: 30px 30px #3DD7AC; 
     object-fit: cover;
 } 
 
@@ -77,7 +77,14 @@
 }
 @media screen and (max-width: 768px) {
     .ZukunftChancen h1 {
-        font-size: 4em;
-        
+        font-size: 4em;     
+    }
+}
+@media screen and (max-width: 568px) {
+    .zukunft-chancen-span-aside {
+         right: 4%;
+    }
+    .ZukunftChancen h1 {
+        font-size: 2.5em;     
     }
 }

@@ -30,7 +30,7 @@
     left: 2%;
     bottom: 25%;
     font-size: 1.2em;
-    color: #47d7ac;
+    color: #3DD7AC;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -69,5 +69,8 @@
     .zukunft-title{
         font-size: 1.8em;
         transform: translateY(16px);
+    }
+     #zukunft img{
+        width:100%
     }
 }

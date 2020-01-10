@@ -8,14 +8,18 @@
 .BootcampsWorkshops h1 {
     font-size: 6em;
     padding-left: 10%;
-    width: 50%;
+    width: 80%;
     font-weight: 400;
 }
+.BootcampsWorkshops h1 span {
+    display: block;
+}
 
-.BootcampsWorkshops span {
+.BootcampsWorkshops-span-aside {
     position: absolute;
     transform: rotate(-90deg);
-    right: -2vw;
+    transform-origin: right;
+    right: 3vw;
     top: 25%;
     font-size: 1.2em;
     color: #0b0f2c;
@@ -31,7 +35,7 @@
 
 .BootcampsWorkshops img {
     width: 50%;
-    box-shadow: 30px 30px #00DEAC; 
+    box-shadow: 30px 30px #3DD7AC; 
     object-fit: cover;
 } 
 
@@ -39,7 +43,6 @@
     padding-top: 5%;
     width: 30%;
     margin: 0 auto;
-    
 }
 
 .BootcampsWorkshops h2 {
@@ -81,5 +84,13 @@
     .BootcampsWorkshops img {
         width: 80%;
     }
-
+}
+@media screen and (max-width: 568px) {
+    .BootcampsWorkshops h1 {
+        width: 80%;
+        font-size: 2.5em;
+    }
+    .BootcampsWorkshops h2 {
+        font-size: 1.8em;
+    }
 }

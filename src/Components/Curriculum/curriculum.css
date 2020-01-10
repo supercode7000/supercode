@@ -1,6 +1,7 @@
 .Curriculum {
     position: relative;
     background: #f0f0f0;
+    padding:50px 0;
 } 
 
 .Curriculum-hide {
@@ -16,7 +17,7 @@
 }
 
 .Curriculum-Newsletter {
-    background: #47d7ac;
+    background: #3DD7AC;
     padding: 5%;
     width: 60%;
 }
@@ -33,16 +34,19 @@
 
 }
 .Curriculum-NewsletterInput {
+    width: 100%;
     display: flex;
     justify-content: center;
     padding-top: 80px;
-    
+}
+.Curriculum-NewsletterInput form {
+    width: 70%;
 }
 
 .Curriculum-NewsletterInput [type="email"] {
     /* padding: 0 20px; */
-    width: 350px;
-    background: #47d7ac ;
+    width: 80%;
+    background: #3DD7AC ;
     border: none;
     padding-bottom: 8px;
     border-bottom: 3px solid #fff;
@@ -52,21 +56,37 @@
 }
 
 .Curriculum-NewsletterInput [type="submit"] {
-    background-color: #47d7ac;
+    background-color: #3DD7AC;
     border: none;
     font-size: 1.3em;
     color: #fff;
     padding-bottom: 8px;
     border-bottom: 3px solid #fff;
     outline: none;
+    
 }
+.Curriculum-Newsletter-span {
+    display: inline-block;
+}
+@media screen and (max-width: 768px) {
+    .Curriculum-NewsletterInput form {
+        width: auto;
+    }
+    .Curriculum-Newsletter h1 {
+        width: auto;
+    }
+}
+
 @media screen and (max-width: 568px) {
     .Curriculum-NewsletterInput [type="email"] {
         /* padding: 0 20px; */
-        width: auto;
+        width: 220px;
     }
-    .Curriculum-NewsletterInput [type="submit"] {
-        border: none;
-        
-    }
+.Curriculum-Newsletter h1 {
+    font-size: 1.5em;
+
+}
+    .Curriculum-Newsletter {
+    width: 80%;
+}
 }

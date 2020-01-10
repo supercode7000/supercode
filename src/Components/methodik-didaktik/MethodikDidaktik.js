@@ -15,22 +15,22 @@ const MethodikDidaktik = () => {
             <h2 className="methodik-didaktik-title"><span>Methodik</span>Didaktik</h2>
             <div className="methodik-didaktik-container">
                 <article className="methodik-didaktik-item">
-                    <FontAwesomeIcon color="#47d7ac" className="icon" icon="fist-raised" size="3x" />
+                    <FontAwesomeIcon color="#3DD7AC" className="icon" icon="fist-raised" size="3x" />
                     <h4>Headline</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae velit porro ipsum ducimus. </p>
                 </article>
                 <article className="methodik-didaktik-item">
-                    <FontAwesomeIcon color="#47d7ac" className="icon" icon="arrows-alt" size="3x" />
+                    <FontAwesomeIcon color="#3DD7AC" className="icon" icon="arrows-alt" size="3x" />
                     <h4>Headline</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae velit porro ipsum ducimus.</p>
                 </article>
                 <article className="methodik-didaktik-item">
-                    <FontAwesomeIcon color="#47d7ac" className="icon" icon="language" size="3x" />
+                    <FontAwesomeIcon color="#3DD7AC" className="icon" icon="language" size="3x" />
                     <h4>Headline</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae velit porro ipsum ducimus.</p>
                 </article>
                 <article className="methodik-didaktik-item">
-                    <FontAwesomeIcon color="#47d7ac" className="icon" icon="compress-arrows-alt" size="3x" />
+                    <FontAwesomeIcon color="#3DD7AC" className="icon" icon="compress-arrows-alt" size="3x" />
                     <h4>Headline</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae velit porro ipsum ducimus. </p>
                 </article>
@@ -38,28 +38,28 @@ const MethodikDidaktik = () => {
             <Carousel indicators={false} id="methodik-didaktik-carousel">
                 <Carousel.Item>
                     <article className="methodik-didaktik-item">
-                        <FontAwesomeIcon color="#47d7ac" className="icon" icon="fist-raised" size="3x" />
+                        <FontAwesomeIcon color="#3DD7AC" className="icon" icon="fist-raised" size="3x" />
                         <h4>Headline</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae velit porro ipsum ducimus. </p>
                     </article>
                 </Carousel.Item>
                 <Carousel.Item>
                     <article className="methodik-didaktik-item">
-                        <FontAwesomeIcon color="#47d7ac" className="icon" icon="arrows-alt" size="3x" />
+                        <FontAwesomeIcon color="#3DD7AC" className="icon" icon="arrows-alt" size="3x" />
                         <h4>Headline</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae velit porro ipsum ducimus.</p>
                     </article>
                 </Carousel.Item>
                 <Carousel.Item>
                     <article className="methodik-didaktik-item">
-                        <FontAwesomeIcon color="#47d7ac" className="icon" icon="language" size="3x" />
+                        <FontAwesomeIcon color="#3DD7AC" className="icon" icon="language" size="3x" />
                         <h4>Headline</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae velit porro ipsum ducimus.</p>
                     </article>
                 </Carousel.Item>
                 <Carousel.Item>
                     <article className="methodik-didaktik-item">
-                        <FontAwesomeIcon color="#47d7ac" className="icon" icon="compress-arrows-alt" size="3x" />
+                        <FontAwesomeIcon color="#3DD7AC" className="icon" icon="compress-arrows-alt" size="3x" />
                         <h4>Headline</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae velit porro ipsum ducimus. </p>
                     </article>

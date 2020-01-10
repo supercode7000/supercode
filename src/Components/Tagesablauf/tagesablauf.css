@@ -14,7 +14,7 @@
 
 .Tagesablauf .deactive {
     color: #0b0f2c;
-    background: #00DEAC;
+    background: #3DD7AC;
     border: 1px solid #0b0f2c;
 }
 /* Buttons end */
@@ -27,7 +27,7 @@
     margin-top: 20px;
     display: grid;
     grid-template-columns: 30% 70%;
-    box-shadow: -30vw -100px #00DEAC;
+    box-shadow: -30vw -100px #3DD7AC;
 }
 .Tagesablauf h1 {
     padding-left: 10vw;
@@ -42,7 +42,7 @@
     padding: 0 60px 0 10vw;
     font-size: 1.2em;
     letter-spacing: 2px;
-    background: #00DEAC;
+    background: #3DD7AC;
     box-shadow: inset 0px -300px #f0f0f0;
 }
 
@@ -52,11 +52,11 @@
 @media screen and (max-width: 992px) {
     .Tagesablauf-Container {
         grid-template-columns: 1fr;
-        box-shadow: 100px -100px #00DEAC;
+        box-shadow: 100px -100px #3DD7AC;
     }
     .Tagesablauf-Select {
         padding: 0 5% 5% 35%;
-        background: #00DEAC;
+        background: #3DD7AC;
         box-shadow: inset 100px 0px #f0f0f0;
     }
 }
@@ -64,5 +64,10 @@
     .Tagesablauf h1 {
         padding-left: 10%;
         transform: translateY(-20px);
+    }
+}
+@media screen and (max-width: 568px) {
+    .Tagesablauf h1 {
+        font-size:2.3em;
     }
 }

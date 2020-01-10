@@ -11,7 +11,7 @@
     left: 5%;
     top: 30%;
     font-size: 1.2em;
-    color: #47d7ac;
+    color: #3DD7AC;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -71,5 +71,10 @@
     }
     .trainer-container-aside-span {
         top: 40%;
+    }
+}
+@media screen and (max-width: 568px) {
+    .trainer-container h1 {
+        font-size: 3em;
     }
 }

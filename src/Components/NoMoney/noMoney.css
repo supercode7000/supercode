@@ -1,5 +1,5 @@
 .noMoney-container {
-    background: #00DEAC;
+    background: #3DD7AC;
     display: grid;
     grid-template-columns: 60% 40%;
     grid-template-rows: auto auto;
@@ -39,7 +39,6 @@
 
 .noMoney-textExpand {
     margin-top: 61%;
-    /* box-shadow: -38vw -35vh 0 #00DEAC, 0 -35vh 0 #00DEAC, -38vw 0 0 #00DEAC, 0 35vh 0 #00DEAC, -38vw 35vh 0 #00DEAC ;  */
 }
 
 @media screen and (max-width: 992px) {
@@ -50,7 +49,7 @@
     }
     .noMoney-textExpand {
         margin-top: 5vh;
-        box-shadow: 10vw 18vh #00DEAC;
+        box-shadow: 10vw 18vh #3DD7AC;
         padding-left: 5%;
     }
     .noMoney-aside {
@@ -66,5 +65,17 @@
     .noMoney-container {
         font-size: .8em;
         box-shadow: inset 10vw 15vh #f0f0f0, inset 10vw -40vh #f0f0f0;
+    }
+}
+@media screen and (max-width: 568px) {
+    .noMoney-container h1, .noMoney-container h2{
+        font-size: 3em;
+    }
+    .noMoney-aside {
+        width: 80%;
+        margin: 0 5% 0 15%;
+    }
+    .noMoney-aside p {
+        padding: 0;
     }
 }

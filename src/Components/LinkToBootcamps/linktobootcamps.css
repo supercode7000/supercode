@@ -5,7 +5,7 @@
     padding:10% ;
 }
 .bg-green{
-    background: #47d7ac;
+    background: #3DD7AC;
 }
 .bg-gray{
     background: #f0f0f0;
@@ -25,7 +25,7 @@
 }
 #link-to-bootcamps .description-green{
     font-style: italic;
-    color:#47d7ac
+    color:#3DD7AC
  }
  @media screen and (max-width: 992px) {
     #link-to-bootcamps{

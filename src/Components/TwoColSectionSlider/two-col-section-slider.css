@@ -36,7 +36,7 @@
     right: 5%;
     top: 40%;
     font-size: 1.2em;
-    color: #47d7ac;
+    color: #3DD7AC;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -78,4 +78,9 @@
     .two-col-section-slider-aside {
         top:30%
     }
+}
+@media screen and (max-width: 568px) {
+    .two-col-section-slider-text h2, .two-col-section-slider-text p {
+        width: 100%;
+    }    
 }

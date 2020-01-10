@@ -12,7 +12,7 @@
 }
 .TextExpandDates-type {
     font-style: italic;
-    color: #00DEAC;
+    color: #3DD7AC;
     font-size: 1.2em;
 }
 
@@ -52,5 +52,10 @@
     }
     .TextExpandDates-infos {
         grid-area: title;
+    }
+}
+@media screen and (max-width: 568px) {
+    .TextExpandDates-type-title {
+        font-size: 1.6em;
     }
 }

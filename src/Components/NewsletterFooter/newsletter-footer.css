@@ -8,7 +8,7 @@
     align-items: center;
     flex-direction: column;
     background: #0b0f2c;
-    color: #47d7ac;
+    color: #3DD7AC;
     padding: 30vh 0;
 }
 
@@ -18,13 +18,13 @@
     font-size: 2.2rem;
 }
 .NewsletterBlau a {
-    color: #47d7ac;
+    color: #3DD7AC;
     font-size: 1.1em;
     font-weight: 500;
     padding-bottom: 8px;
     letter-spacing: 5px;
     text-transform: uppercase;
-    border-bottom: 3px solid #47d7ac;
+    border-bottom: 3px solid #3DD7AC;
     padding-top: 10vh;
 }
 .socialMedia a {
@@ -47,11 +47,11 @@
     grid-template-columns: 1fr 1fr;
 }
 .NewsletterNewsletter {
-    background:  #47d7ac;
+    background:  #3DD7AC;
     padding: 13vh 10vw;
 }
 .NewsletterInput input {
-    background: #47d7ac;
+    background: #3DD7AC;
     border: none;
     outline: none;
     width: 100%;
@@ -85,7 +85,7 @@
     display: inline-block;
 }
 .FooterTypingGreen {
-    color: #47d7ac;
+    color: #3DD7AC;
 }
 .FooterTypingBlue {
     color: #0b0f2c;
@@ -130,6 +130,17 @@
     }
 }
 @media screen and (max-width: 568px) {
+    .NewsletterBlau {
+        padding: 20vh 0;
+    }
+    .NewsletterBlau h1 {
+        text-align: center;
+    }
+    .NewsletterBlau a {
+        text-align: center;
+        font-size: .9em;
+        position: relative;
+    }
     .FooterTypingGreen, .FooterTypingBlue{
         font-size: 0.8em;
     letter-spacing: 1.6px;
@@ -137,5 +148,6 @@
     .socialMedia {
         padding: 10vh 10% 0; 
     }
+
 }
 

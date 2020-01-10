@@ -4,7 +4,7 @@ import './videoComponent.css'
 const VideoComponent = () => {
     return (
         <section className="videoContainer">
-            <h5 className="textSeite">WERDE SUPERCODER*IN</h5>
+            <span className="textSeite">WERDE SUPERCODER*IN</span>
             <div className="videoContainerTextContainer">
                 <p className="videoContainerText">Vorerfahrung ist nicht notwendig - alles was du brauchst ist Motivation und unsere Super Trainer*innen</p>
             </div>

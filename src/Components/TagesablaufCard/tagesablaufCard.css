@@ -4,6 +4,9 @@
     border-bottom: 2px solid #f0f0f0;
     padding: 2%;
 }
+.Tagesablauf-Time-span {
+    display: block;
+}
 
 .Tagesablauf-Time {
     font-style: italic;
@@ -12,7 +15,7 @@
 
 .Tagesablauf-Info-type {
     font-style: italic;
-    color: #00DEAC;
+    color: #3DD7AC;
     font-size: 1.2em;
 }
 
@@ -34,7 +37,7 @@
         background: #f0f0f0;
         
         box-shadow: inset 100px 0px #f0f0f0;
-        background: #00DEAC;
+        background: #3DD7AC;
     }
     .TagesablaufCard {
         background: #fff;
@@ -43,6 +46,20 @@
         box-shadow: inset 5vw 0px #f0f0f0;
     }
 }
-@media screen and (max-width: 768px) {
-    
+@media screen and (max-width: 568px) {
+    .Tagesablauf-Time {
+      font-size: 0.8em;
+    }
+
+    .Tagesablauf-Info-type {
+      font-size: 0.8em;
+    }
+
+    .Tagesablauf-Info-title {
+      font-size: 1em;
+    }
+
+    .Tagesablauf-Dauer {
+      font-size: 0.8em;
+    }
 }

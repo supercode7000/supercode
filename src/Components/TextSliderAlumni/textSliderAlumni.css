@@ -67,6 +67,14 @@
         padding-top: 3em;
     }
 }
-@media screen and (max-width: 768px) {
-    
+@media screen and (max-width: 568px) {
+    .textSliderAlumniArticle {
+        padding: 0;
+    }
+    .textSliderAlumniSource {
+        /* flex-direction: column; */
+    }
+    .textSliderAlumniFooter {
+        flex-direction: column;
+    }
 }

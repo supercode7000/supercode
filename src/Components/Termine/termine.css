@@ -14,7 +14,7 @@
 
 .TextExpandContainer {
     margin-top: 11%;
-    box-shadow: 30vw -10vh 0 #00DEAC; 
+    box-shadow: 30vw -10vh 0 #3DD7AC; 
 }
 
 .termine-aside {
@@ -41,7 +41,7 @@
         grid-row: 1;
         width: 100%;
         padding: 0 5% 0 35%;
-        background-color: #00DEAC;
+        background-color: #3DD7AC;
         box-shadow: inset 10vw 3vh 0 #f0f0f0;
     }
     .termine h1 {
@@ -50,6 +50,16 @@
     .termine .TextExpandContainer {
         margin-top: 0;
         padding-left: 5%;
-        box-shadow: 10vw 10vh 0 #00DEAC;
+        box-shadow: 10vw 10vh 0 #3DD7AC;
     }
+}
+@media screen and (max-width: 568px) {
+    .termine {
+        padding-bottom: 30vh;
+    }
+    .termine .termine-aside {
+        padding: 0 5% 0 20%;
+    }
+    
+    
 }

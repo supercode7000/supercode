@@ -9,8 +9,8 @@
 }
 .partner-text {
     grid-row: span 1;
-    background: #47d7ac;
-    box-shadow: 38vw 0px #47d7ac;
+    background: #3DD7AC;
+    box-shadow: 38vw 0px #3DD7AC;
     padding: 20% 5% 20% 20%;
 }
 .partner-section .carousel  {
@@ -55,7 +55,7 @@
     right: 5%;
     top: 25%;
     font-size: 1.2em;
-    color: #47d7ac;
+    color: #3DD7AC;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -71,7 +71,7 @@
         width: 80%;
         margin: 0 auto;
         padding: 10%;
-        box-shadow: 0 20vh #47d7ac;
+        box-shadow: 0 20vh #3DD7AC;
     }
     .partner-section .carousel {
         width: 50%;
